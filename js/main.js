@@ -1,7 +1,7 @@
 import { parsePabulibFromString } from './pabulibParser.js';
-import { initializeDragDrop } from './dragDropHandler.js';
-import { initializeForm } from './formHandler.js';
-import { displayResults } from './displayResults.js';
+import { initializeDragDrop } from './interface/dragDropHandler.js';
+import { initializeForm } from './interface/formHandler.js';
+import { displayResults } from './interface/displayResults.js';
 
 const equalSharesParams = {
     tieBreaking: [],
