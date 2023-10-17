@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Method of Equal Shares: Online Computation Tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sortable-theme-light.css" />
+    <script type="module" src="./js/main.js"></script>
+    <script src="js/libraries/sortable.min.js"></script>
+    <script src="js/libraries/echarts.min.js"></script>
+    <script src="js/libraries/xlsx.mini.min.js"></script>
+    <link rel="icon" href="/img/favicon.svg" data-rh="true">
+    <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0-beta.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.0-beta.1/mapbox-gl.css' rel='stylesheet' /> -->
+</head>
+
+<body>
+
+    <main>
+
+        <h1><img src="img/equal-shares-logo.svg" height="30"> Method of Equal Shares: Online Computation Tool</h1>
+
+        <p>On this page, you can load a participatory budgeting voting file (in the .pb format from pabulib), and compute
+            the outcome using the Method of Equal Shares. The computation happens offline on your device, and no data is
+            being uploaded. The tool supports several variants of the Method of Equal Shares, which you can customize.</p>
+
+        <!-- TODO: handle files with floats. Allow custom tie breaking, or alphabetic. Do something with categories. Give explanations of completion and comparison. -->
+
+        <h2>Select data file</h2>
+
+        <p>
+            <input type="file" accept=".pb" name="pabulib_file" id="hiddenFileInput" style="display: none;">
+            <button type="button" id="uploadBtn" style="margin-right: 5px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16"
+                    style="position: relative; top: 3px; margin-top: -16px; margin-right: 2px;">
+                    <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+                </svg>
+                Select .pb file</button> <span id="drop-suggestion">or drag and drop it here</span> or <a href="#" id="loadExampleButton">load Zielony Milion</a>.
+        </p>
+
+        <div id="fileInfo">
+            <img src="img/file-earmark-check.svg" width="50">
+            <div></div>
+        </div>
+
+
+        <h2>Specify the parameters of the Method of Equal Shares</h2>
+
+        <details data-field="tieBreaking">
+            <summary><strong>Tie-breaking</strong>: None</summary>
+
+            <div id="tieBreakingList">
+                <!-- Items will be appended here dynamically -->
+            </div>
+
+            <div id="unusedTieBreakingMethods">
+                <!-- Available methods links will be appended here dynamically -->
+            </div>
+        </details>
+
+        <details data-field="completion">
+            <summary><strong>Completion method</strong>: None</summary>
+
+            <label>
+                <input type="radio" name="completion_method" value="none">
+                None
+            </label>
+
+            <label>
+                <input type="radio" name="completion_method" value="utilitarian">
+                Utilitarian (select the projects with the highest vote count)
+            </label>
+
+            <label>
+                <input type="radio" name="completion_method" value="add1" checked>
+                Repeated increase of voter budgets by 1 currency unit (Add1)
+            </label>
+
+            <label>
+                <input type="radio" name="completion_method" value="add1u">
+                Repeated increase of voter budgets by 1 currency unit, followed by utilitarian completion (Add1u)
+            </label>
+
+            <div id="add1options" style="display: none;">
+                <label>
+                    <input type="checkbox" name="add_1_exhaustive" id="add_1_exhaustive" checked>
+                    Stop process when exhaustive
+                    <img src="img/info.svg" data-tippy-content="Recommended. When the output is exhaustive (no additional project can be added without exceeding the budget), do not continue increasing the voter endowment (even if the result would still satisfy the budget constraint).">
+                </label>
+    
+                <label>
+                    <input type="checkbox" name="add_1_integral" id="add_1_integral" checked>
+                    Use integral endowments
+                    <img src="img/info.svg" data-tippy-content="Recommended. Round endowments down to the nearest integer (whole number).">
+                </label>
+            </div>
+
+        </details>
+
+        <details data-field="comparison">
+            <summary><strong>Comparison step</strong>: None</summary>
+
+            <label>
+                <input type="radio" name="comparison_step" value="None" checked>
+                None
+            </label>
+
+            <label>
+                <input type="radio" name="comparison_step" value="satisfaction">
+                Popularity with respect to voter satisfaction
+            </label>
+
+            <label>
+                <input type="radio" name="comparison_step" value="exclusionRatio">
+                Popularity with respect to exclusion ratio
+            </label>
+        </details>
+
+        <details data-field="accuracy">
+            <summary><strong>Numerical accuracy</strong>: Use floating point numbers</summary>
+
+            <label>
+                <input type="radio" name="accuracy" value="floats" checked>
+                Use floating point numbers (faster to compute, recommended for testing)
+            </label>
+
+            <label>
+                <input type="radio" name="accuracy" value="fractions">
+                Use exact fractions (slower to compute, recommended for official results)
+            </label>
+
+        </details>
+
+        <h2 id="results-header" style="display: none;">Results</h2>
+
+        <div id="progress" style="display: none;">
+            <img src="img/spinner.svg" id="spinner" style="position: relative; top: 5px; margin-top: -16px; margin-right: 5px;">
+            <span id="progress-text"libraries/></span>
+        </div>
+
+        <section id="results-section">
+            <table id="winners" class="sortable-theme-light" data-sortable>
+            </table>
+        </section>
+
+        <div id="drop-overlay">
+            <div id="drop-overlay-instruction">
+                Drop a .pb file to import.
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+</body>
+
+</html>
