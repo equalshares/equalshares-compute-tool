@@ -46,8 +46,7 @@ const workerOnError = function (e) {
 }
 
 function setUpWorker() {
-    // random number to prevent caching
-    equalSharesWorker = new Worker("./js/methodOfEqualSharesWorker.js?" + Math.random());
+    equalSharesWorker = new Worker("./js/methodOfEqualSharesWorker.js");
     equalSharesWorker.onmessage = workerOnMessage;
     equalSharesWorker.onerror = workerOnError;
     awaitingResponse = false;
