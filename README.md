@@ -4,6 +4,8 @@ This is a simple web app where a user can load a participatory budgeting voting 
 
 The tool is intended for citizens who want to verify the computation of voting results in a city that uses the Method of Equal Shares for participatory budgeting. But it can also be used by election officials and municipal adminstrators to determine or to double check the winning projects. Finally, it can be used as a research tool.
 
+General information about how to compute the Method of Equal Shares, and in particular about alternatives to this tool, are available at [https://equalshares.net/implementation/computation/](https://equalshares.net/implementation/computation/).
+
 ## Deployed on [equalshares.net](https://equalshares.net/tools/compute/).
 
 The tool is available online at [https://equalshares.net/tools/compute/](https://equalshares.net/tools/compute/).
@@ -23,3 +25,5 @@ in the directory where you extracted the contents of this repository, and then g
 ## Development and contribution
 
 If you wish to improve the tool, contributions are welcome. Consider contacting Dominik Peters prior to starting work, but you can also just open a Pull Request. You can also report bugs and leave feature requests using the Issues tab of this repository.
+
+The code in the files `pabulibParser.js` and `methodOfEqualSharesWorker.js` may be of independent interest.
