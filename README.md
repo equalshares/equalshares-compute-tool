@@ -1,4 +1,4 @@
-# Online Computation Tool for the Method of Equal Shares
+# Online Computation Tool for Method of Equal Shares
 
 This is a simple web app where a user can load a participatory budgeting voting file (in the `.pb` format from [pabulib](http://pabulib.org/)), and compute the outcome using the Method of Equal Shares. The computation happens offline on the user's device, and no data is being uploaded. The tool supports several variants of the Method of Equal Shares, which can be customized. 
 
