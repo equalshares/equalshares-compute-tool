@@ -405,9 +405,11 @@ function equalShares(instance, params) {
         throw `Error parsing costs and budget as numbers: ${error.message}`;
     }
 
+    const everythingAffordable = sum(Object.values(cost)) <= B;
+
     // compute MES
     let result;
-    if (["none", "utilitarian"].includes(params.completion)) {
+    if (["none", "utilitarian"].includes(params.completion) || everythingAffordable) { // don't use Add1 if everything is affordable
         result = equalSharesFixedBudget(N, C, cost, approvers, B, params, true, true);
     } else if (["add1", "add1e", "add1u", "add1eu"].includes(params.completion)) {
         result = equalSharesAdd1(N, C, cost, approvers, B, params);
