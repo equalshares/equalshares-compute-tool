@@ -9,8 +9,6 @@ let equalSharesParams;
 let paramsChanged;
 
 function refreshTieBreakUI() {
-    paramsChanged();
-
     const criteriaList = document.getElementById('tieBreakingList');
     criteriaList.innerHTML = '';
 
@@ -35,6 +33,7 @@ function refreshTieBreakUI() {
         deleteButton.style.backgroundColor = 'hsl(213, 48%, 88%)';
         deleteButton.addEventListener('click', function () {
             equalSharesParams.tieBreaking = [];
+            paramsChanged();
             refreshTieBreakUI();
         });
         availableMethods.appendChild(deleteButton);
@@ -55,6 +54,7 @@ function refreshTieBreakUI() {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
                 equalSharesParams.tieBreaking.push(method);
+                paramsChanged();
                 refreshTieBreakUI();
             });
             atLeastOneAvailable = true;
@@ -191,15 +191,58 @@ function showCurrentChoices() {
     }
 }
 
+const defaultParams = {
+    tieBreaking: [],
+    completion: "add1u",
+    add1options: ["exhaustive", "integral"],
+    comparison: "none",
+    accuracy: "floats"
+};
+
+function addParametersToURL(equalSharesParams) {
+    const url = new URL(window.location.href);
+    for (let field in defaultParams) {
+        let value = equalSharesParams[field];
+        let defaultValue = defaultParams[field];
+        // arrays -> comma-separated strings
+        if (Array.isArray(value)) {
+            value = value.join(',');
+            defaultValue = defaultValue.join(',');
+        }
+        if (value !== defaultValue) {
+            url.searchParams.set(field, value);
+        } else {
+            url.searchParams.delete(field);
+        }
+    }
+    window.history.replaceState({}, '', url);
+}
+
+export function parseURLParameters(params) {
+    const url = new URL(window.location.href);
+    for (let field in defaultParams) {
+        let value = url.searchParams.get(field);
+        if (value !== null) {
+            if (Array.isArray(defaultParams[field])) {
+                value = value.split(',');
+            }
+            params[field] = value;
+        }
+    }
+    return;
+}
+
 export function initializeForm(fileHandler, moduleParamsChanged, moduleEqualSharesParams) {
     equalSharesParams = moduleEqualSharesParams;
     paramsChanged = () => {
+        addParametersToURL(equalSharesParams);
         showCurrentChoices();
         moduleParamsChanged();
     };
 
     refreshTieBreakUI();
     refreshRadios();
+    showCurrentChoices();
 
     document.getElementById('uploadBtn').addEventListener('click', function () {
         // Trigger click event on hidden file input

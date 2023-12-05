@@ -1,11 +1,11 @@
 import { parsePabulibFromString } from './pabulibParser.js';
 import { initializeDragDrop } from './interface/dragDropHandler.js';
-import { initializeForm } from './interface/formHandler.js';
+import { initializeForm, parseURLParameters } from './interface/formHandler.js';
 import { displayResults } from './interface/displayResults.js';
 
-const equalSharesParams = {
+let equalSharesParams = {
     tieBreaking: [],
-    completion: "none",
+    completion: "add1u",
     add1options: ["exhaustive", "integral"],
     comparison: "none",
     accuracy: "floats"
@@ -119,6 +119,7 @@ async function handleFileDrop(fileName, fileText) {
 
 async function main() {
     initializeDragDrop(handleFileDrop);
+    parseURLParameters(equalSharesParams);
     initializeForm(handleFileDrop, computeRule, equalSharesParams);
     setUpWorker();
 }
