@@ -76,6 +76,15 @@ function computeRule() {
 ///////////////////////////////////////////////
 
 async function handleFileDrop(fileName, fileText) {
+    // load heavy scripts
+    const scripts = ["js/libraries/sortable.min.js", "js/libraries/echarts.min.js", "js/libraries/xlsx.mini.min.js"];
+    for (let script of scripts) {
+        if (!document.querySelector(`script[src="${script}"]`)) {
+            const scriptElement = document.createElement("script");
+            scriptElement.src = script;
+            document.head.appendChild(scriptElement);
+        }
+    }
     const fileInfoDiv = document.getElementById("fileInfo");
     fileInfoDiv.style.display = "flex";
     fileInfoDiv.innerHTML = "";
