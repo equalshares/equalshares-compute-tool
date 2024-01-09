@@ -27,9 +27,12 @@ function clearResults() {
     document.getElementById('results-section').innerHTML = "";
 }
 
-const workerOnMessage = function (e) {
+const workerOnMessage = async function (e) {
     if (e.data.type == "result") {
         awaitingResponse = false;
+        await loadScript("js/libraries/sortable.min.js");
+        await loadScript("js/libraries/echarts.min.js");
+        await loadScript("js/libraries/xlsx.mini.min.js");
         clearResults();
         const winners = e.data.winners;
         const notes = e.data.notes;
@@ -71,20 +74,25 @@ function computeRule() {
     equalShares(instance, equalSharesParams);
 }
 
+function loadScript(src) {
+    return new Promise((resolve, reject) => {
+        if (!document.querySelector(`script[src="${src}"]`)) {
+            const scriptElement = document.createElement("script");
+            scriptElement.src = src;
+            scriptElement.onload = resolve; // Resolve the promise when the script is loaded
+            scriptElement.onerror = reject; // Reject the promise if there's an error
+            document.head.appendChild(scriptElement);
+        } else {
+            resolve(); // If the script is already loaded, resolve immediately
+        }
+    });
+}
+
 ///////////////////////////////////////////////
 ////////////// loading .pb files //////////////
 ///////////////////////////////////////////////
 
 async function handleFileDrop(fileName, fileText) {
-    // load heavy scripts
-    const scripts = ["js/libraries/sortable.min.js", "js/libraries/echarts.min.js", "js/libraries/xlsx.mini.min.js"];
-    for (let script of scripts) {
-        if (!document.querySelector(`script[src="${script}"]`)) {
-            const scriptElement = document.createElement("script");
-            scriptElement.src = script;
-            document.head.appendChild(scriptElement);
-        }
-    }
     const fileInfoDiv = document.getElementById("fileInfo");
     fileInfoDiv.style.display = "flex";
     fileInfoDiv.innerHTML = "";
