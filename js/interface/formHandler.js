@@ -95,14 +95,6 @@ function refreshRadios() {
         radio.addEventListener('change', function() {
             if (radio.checked) {
                 equalSharesParams.completion = radio.value;
-                const add1options = document.getElementById('add1options');
-                if (radio.value.includes("add1")) {
-                    // move add1options to be a child of the parent of radio
-                    radio.parentNode.appendChild(add1options);
-                    add1options.style.display = "block";
-                } else {
-                    add1options.style.display = "none";
-                }
                 paramsChanged();
             }
         });
@@ -131,6 +123,7 @@ function refreshRadios() {
         checkbox.addEventListener('change', function() {
             if (checkbox.checked) {
                 equalSharesParams.add1options.push(checkboxId.split("_")[2]);
+                equalSharesParams.add1options.sort();
             } else {
                 equalSharesParams.add1options = equalSharesParams.add1options.filter(x => x !== checkboxId.split("_")[2]);
             }
@@ -188,6 +181,16 @@ function showCurrentChoices() {
         } catch (e) { continue; }
         const summary = details.querySelector('summary');
         summary.innerHTML = `<strong>${headerText[field]}</strong>: ${displayOptions[field][equalSharesParams[field]].split('(')[0]}`;
+    }
+    // for showing add1 options
+    const add1options = document.getElementById('add1options');
+    const radio = document.querySelector('input[name="completion_method"]:checked');
+    if (radio && radio.value.includes("add1")) {
+        // move add1options to be a child of the parent of radio
+        radio.parentNode.appendChild(add1options);
+        add1options.style.display = "block";
+    } else {
+        add1options.style.display = "none";
     }
 }
 
