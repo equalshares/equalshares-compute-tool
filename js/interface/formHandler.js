@@ -130,6 +130,12 @@ function refreshRadios() {
             paramsChanged();
         });
     }
+
+    const budgetIncrementInput = document.getElementById('budget_increment');
+    budgetIncrementInput.addEventListener('input', function() {
+        equalSharesParams.budgetIncrement = parseInt(budgetIncrementInput.value);
+        paramsChanged();
+    });
 }
 
 // Mapping from internal representation to display representation
@@ -192,6 +198,9 @@ function showCurrentChoices() {
     } else {
         add1options.style.display = "none";
     }
+
+    const budgetIncrementInput = document.getElementById('budget_increment');
+    budgetIncrementInput.value = equalSharesParams.budgetIncrement || 1;
 }
 
 const defaultParams = {
@@ -199,7 +208,8 @@ const defaultParams = {
     completion: "add1u",
     add1options: ["exhaustive", "integral"],
     comparison: "none",
-    accuracy: "floats"
+    accuracy: "floats",
+    budgetIncrement: 1
 };
 
 function addParametersToURL(equalSharesParams) {
