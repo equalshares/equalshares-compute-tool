@@ -8,7 +8,8 @@ let equalSharesParams = {
     completion: "add1u",
     add1options: ["exhaustive", "integral"],
     comparison: "none",
-    accuracy: "floats"
+    accuracy: "floats",
+    increment: 1
 }
 
 ///////////////////////////////////////////////
@@ -49,7 +50,7 @@ const workerOnError = function (e) {
 }
 
 function setUpWorker() {
-    equalSharesWorker = new Worker("./js/methodOfEqualSharesWorker.js");
+    equalSharesWorker = new Worker("./js/methodOfEqualSharesWorker.js?v=1");
     equalSharesWorker.onmessage = workerOnMessage;
     equalSharesWorker.onerror = workerOnError;
     awaitingResponse = false;

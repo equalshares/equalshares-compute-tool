@@ -278,7 +278,7 @@ function equalSharesAdd1(N, C, cost, approvers, B, params) {
             }
         }
         // would the next highest budget work?
-        let nextBudget = budget + (N.length * params.budgetIncrement);
+        let nextBudget = budget + (N.length * params.increment);
         let nextMes = equalSharesFixedBudget(N, C, cost, approvers, nextBudget, params).winners;
         currentCost = sum(nextMes.map(c => cost[c]));
         if (currentCost <= B) {

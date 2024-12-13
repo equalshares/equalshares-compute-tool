@@ -80,12 +80,12 @@
 
             <label>
                 <input type="radio" name="completion_method" value="add1">
-                Repeated increase of voter budgets by 1 currency unit (Add1)
+                <span id="add1_label">Repeated increase of voter budgets by 1 currency unit (Add1)</span>
             </label>
 
             <label>
                 <input type="radio" name="completion_method" value="add1u" checked>
-                Repeated increase of voter budgets by 1 currency unit, followed by utilitarian completion (Add1u)
+                <span id="add1u_label">Repeated increase of voter budgets by 1 currency unit, followed by utilitarian completion (Add1u)</span>
             </label>
 
             <div id="add1options" style="display: none;">
@@ -103,7 +103,8 @@
 
                 <label>
                     Budget increment:
-                    <input type="number" id="budget_increment" name="budget_increment" value="1" min="1">
+                    <input type="number" id="budget_increment" name="budget_increment" value="1" min="1" style="width: 100px;">
+                    <img src="img/info.svg" data-tippy-content="The currency amount that is added to voter budgets in each iteration. For most currencies, this is usually chosen as 1. For other highly denominated currencies, other values such as 10, 100, or 1000 make sense and speed up the computation.">
                 </label>
             </div>
 
