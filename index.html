@@ -29,6 +29,7 @@
         <p>
             Code is available on <a href="https://github.com/equalshares/equalshares-compute-tool">GitHub <img src="img/github-mark.svg" height="14"></a>.
             More information about the Method of Equal Shares is available on <a href="https://equalshares.net">equalshares.net</a>.
+            This page was first published October 2023 and last updated December 2024 (version v1.1.0).
         </p>
 
         <!-- TODO: handle files with floats. Allow custom tie breaking, or alphabetic. Do something with categories. Give explanations of completion and comparison. -->
@@ -80,12 +81,12 @@
 
             <label>
                 <input type="radio" name="completion_method" value="add1">
-                Repeated increase of voter budgets by 1 currency unit (Add1)
+                <span id="add1_label">Repeated increase of voter budgets by 1 currency unit (Add1)</span>
             </label>
 
             <label>
                 <input type="radio" name="completion_method" value="add1u" checked>
-                Repeated increase of voter budgets by 1 currency unit, followed by utilitarian completion (Add1u)
+                <span id="add1u_label">Repeated increase of voter budgets by 1 currency unit, followed by utilitarian completion (Add1u)</span>
             </label>
 
             <div id="add1options" style="display: none;">
@@ -99,6 +100,12 @@
                     <input type="checkbox" name="add_1_integral" id="add_1_integral" checked>
                     Use integral endowments
                     <img src="img/info.svg" data-tippy-content="Recommended. Round endowments down to the nearest integer (whole number).">
+                </label>
+
+                <label>
+                    Budget increment:
+                    <input type="number" id="budget_increment" name="budget_increment" value="1" min="1" style="width: 100px;">
+                    <img src="img/info.svg" data-tippy-content="The currency amount that is added to voter budgets in each iteration. For most currencies, this is usually chosen as 1. For other highly denominated currencies, other values such as 10, 100, or 1000 make sense and speed up the computation.">
                 </label>
             </div>
 

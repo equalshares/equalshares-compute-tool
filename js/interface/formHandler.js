@@ -130,6 +130,12 @@ function refreshRadios() {
             paramsChanged();
         });
     }
+
+    const incrementInput = document.getElementById('budget_increment');
+    incrementInput.addEventListener('blur', function() {
+        equalSharesParams.increment = parseInt(incrementInput.value);
+        paramsChanged();
+    });
 }
 
 // Mapping from internal representation to display representation
@@ -148,11 +154,13 @@ const displayOptions = {
         "minCost,maxVotes": "In favor of lower cost, then higher vote count",
         "maxCost,maxVotes": "In favor of higher cost, then higher vote count",
     },
-    completion: {
-        "none": "None",
-        "utilitarian": "Utilitarian (select the projects with the highest vote count)",
-        "add1": "Repeated increase of voter budgets by 1 currency unit (Add1)",
-        "add1u": "Repeated increase of voter budgets by 1 currency unit, followed by utilitarian completion (Add1u)",
+    completion: function(increment) {
+        return {
+            "none": "None",
+            "utilitarian": "Utilitarian (select the projects with the highest vote count)",
+            "add1": `Repeated increase of voter budgets by ${increment} currency unit${increment !== 1 ? 's' : ''} (Add1)`,
+            "add1u": `Repeated increase of voter budgets by ${increment} currency unit${increment !== 1 ? 's' : ''}, followed by utilitarian completion (Add1u)`,
+        };
     },
     comparison: {
         "none": "None",
@@ -180,18 +188,33 @@ function showCurrentChoices() {
             field = details.dataset.field;
         } catch (e) { continue; }
         const summary = details.querySelector('summary');
-        summary.innerHTML = `<strong>${headerText[field]}</strong>: ${displayOptions[field][equalSharesParams[field]].split('(')[0]}`;
+        const options = field === 'completion' ? 
+            displayOptions[field](equalSharesParams.increment) : 
+            displayOptions[field];
+        summary.innerHTML = `<strong>${headerText[field]}</strong>: ${options[equalSharesParams[field]].split('(')[0]}`;
     }
     // for showing add1 options
     const add1options = document.getElementById('add1options');
     const radio = document.querySelector('input[name="completion_method"]:checked');
     if (radio && radio.value.includes("add1")) {
-        // move add1options to be a child of the parent of radio
-        radio.parentNode.appendChild(add1options);
+        // move add1options to be a child of the parent of radio (if not already)
+        if (add1options.parentNode !== radio.parentNode) {
+            radio.parentNode.appendChild(add1options);
+        }
         add1options.style.display = "block";
     } else {
         add1options.style.display = "none";
     }
+
+    const incrementInput = document.getElementById('budget_increment');
+    equalSharesParams.increment = equalSharesParams.increment || 1;
+    incrementInput.value = equalSharesParams.increment;
+    // update labels
+    const add1Label = document.getElementById('add1_label');
+    const add1uLabel = document.getElementById('add1u_label');
+    const completionOptions = displayOptions.completion(equalSharesParams.increment);
+    if (add1Label) add1Label.innerHTML = completionOptions.add1;
+    if (add1uLabel) add1uLabel.innerHTML = completionOptions.add1u;
 }
 
 const defaultParams = {
@@ -199,7 +222,8 @@ const defaultParams = {
     completion: "add1u",
     add1options: ["exhaustive", "integral"],
     comparison: "none",
-    accuracy: "floats"
+    accuracy: "floats",
+    increment: 1
 };
 
 function addParametersToURL(equalSharesParams) {
@@ -269,4 +293,4 @@ export function initializeForm(fileHandler, moduleParamsChanged, moduleEqualShar
             .then(response => response.text())
             .then(text => fileHandler('poland_wieliczka_2023_green-budget.pb', text));
     });
-}    
+}
