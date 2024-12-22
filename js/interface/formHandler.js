@@ -260,6 +260,7 @@ export function parseURLParameters(params) {
 }
 
 export function initializeForm(fileHandler, moduleParamsChanged, moduleEqualSharesParams) {
+    let pabulibDataLoaded = false;
     equalSharesParams = moduleEqualSharesParams;
     paramsChanged = () => {
         addParametersToURL(equalSharesParams);
@@ -288,9 +289,95 @@ export function initializeForm(fileHandler, moduleParamsChanged, moduleEqualShar
         }
     });
 
-    document.getElementById('loadExampleButton').addEventListener('click', function () {
-        fetch('./pb/poland_wieliczka_2023_green-budget.pb')
-            .then(response => response.text())
-            .then(text => fileHandler('poland_wieliczka_2023_green-budget.pb', text));
+    document.getElementById('pabulibLoadButton').addEventListener('click', function () {
+        const pabulibArea = document.getElementById('pabulibList');
+        
+        if (pabulibDataLoaded) {
+            // Toggle visibility if data is already loaded
+            pabulibArea.style.display = pabulibArea.style.display === 'none' ? 'block' : 'none';
+            return;
+        }
+
+        pabulibArea.innerHTML = 'Loading list of available files...';
+        pabulibArea.style.display = 'block';
+
+        fetch('./pb/_pabulib.json')
+            .then(response => response.json())
+            .then(data => {
+                pabulibArea.innerHTML = '';
+                
+                // Sort countries alphabetically
+                Object.keys(data).sort().forEach(country => {
+                    const countryDetails = document.createElement('details');
+                    const countrySummary = document.createElement('summary');
+                    countrySummary.textContent = country;
+                    countryDetails.appendChild(countrySummary);
+                    
+                    const unitList = document.createElement('ul');
+                    
+                    // Sort units alphabetically
+                    Object.keys(data[country]).sort().forEach(unit => {
+                        const unitItem = document.createElement('li');
+                        unitItem.textContent = unit;
+                        
+                        const fileList = document.createElement('ul');
+                        const files = data[country][unit].sort((a, b) => a.filename.localeCompare(b.filename));
+                        
+                        const createFileElement = (file) => {
+                            const fileItem = document.createElement('li');
+                            const fileLink = document.createElement('span');
+                            fileLink.className = 'pabulib-file';
+                            const descriptionSpan = document.createElement('span');
+                            descriptionSpan.textContent = file.description;
+                            descriptionSpan.className = 'pabulib-description';
+                            fileLink.appendChild(descriptionSpan);
+                            const fileNameSpan = document.createElement('span');
+                            fileNameSpan.textContent = file.filename;
+                            fileNameSpan.className = 'pabulib-filename';
+                            fileLink.appendChild(fileNameSpan);
+                            fileLink.addEventListener('click', (e) => {
+                                e.preventDefault();
+                                pabulibArea.style.display = 'none';
+                                fetch(`./pb/${file.filename}`)
+                                    .then(response => response.text())
+                                    .then(text => fileHandler(file.filename, text));
+                            });
+                            fileItem.appendChild(fileLink);
+                            return fileItem;
+                        };
+
+                        const initialFiles = files.slice(0, 12);
+                        initialFiles.forEach(file => {
+                            fileList.appendChild(createFileElement(file));
+                        });
+
+                        if (files.length > 12) {
+                            const showMoreItem = document.createElement('li');
+                            const showMoreLink = document.createElement('a');
+                            showMoreLink.href = '#';
+                            showMoreLink.textContent = `Show ${files.length - 12} more files...`;
+                            showMoreLink.className = 'pabulib-show-more';
+                            showMoreLink.addEventListener('click', (e) => {
+                                e.preventDefault();
+                                const remainingFiles = files.slice(12);
+                                remainingFiles.forEach(file => {
+                                    fileList.appendChild(createFileElement(file));
+                                });
+                                showMoreItem.remove();
+                            });
+                            showMoreItem.appendChild(showMoreLink);
+                            fileList.appendChild(showMoreItem);
+                        }
+                        
+                        unitItem.appendChild(fileList);
+                        unitList.appendChild(unitItem);
+                    });
+                    
+                    countryDetails.appendChild(unitList);
+                    pabulibArea.appendChild(countryDetails);
+                });
+
+                pabulibDataLoaded = true;
+            });
     });
 }

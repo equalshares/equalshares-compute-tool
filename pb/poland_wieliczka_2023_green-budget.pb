@@ -13,74 +13,75 @@ rule;equalshares/add1
 date_begin;03.04.2023
 date_end;21.04.2023
 min_length;1
-language;polish
 edition;1
+language;pl
+currency;PLN
 PROJECTS
-project_id;name;cost;votes;selected
-24;Zakup 10 fotopułapek przeciwko śmieciarzom i dzikim wysypiskom;5000;720;1
-41;Stworzenie warunków rekreacyjnych dla mieszkańców Węgrzc Wielkich;85000;658;1
-40;Projekt zapobiegania bezdomności psów i kotów na terenie gminy Wieliczka poprzez podejmowanie takich działań jak: sterylizacja kastracja oraz chipowanie zwierząt a także inicjatyw związanych z edukacją mieszkańców gminy i promocją adopcji zwierząt;100000;583;1
-74;Rewitalizacja zieleni parku przy kościele św. Sebastiana w Wieliczce;70800;552;1
-19;Odbudowa populacji zagrożonych gatunków ichtiofauny oraz zwiększenie populacji ryb drapieżnych;99800;538;1
-6;Zielona Chorągwica - rewitalizacja terenów zielonych wraz z nasadzeniami;100000;500;1
-21;Budowa ścieżki edukacyjno-ekologicznej w Laskowcu w Pawlikowicach;100000;496;0
-32;Nasadzenie drzew krzewów i traw przy nowo budowanej ścieżce rekreacyjnej w Strumianach;34999;428;1
-39;Budki lęgowe dla jerzyków;600;418;1
-58;Zielony skwerek przy Szkole Podstawowej im. Królowej Jadwigi w Sierczy;32716;400;1
-42;Rewitalizacja zieleni na działce nr 484/4 przy świetlicy środowiskowej w Kokotowie;35720;388;1
-25;Eko KROKusy;30000;379;1
-16;Zielony Mi(lion)etniów - zielona lekcja;50000;376;0
-43;Kosze na śmieci w Węgrzcach Wielkich;3969;372;1
-20;Recykling z serca Dobranowic;5000;362;1
-60;Pracownia Ekologiczna w Szkole Podstawowej im. Królowej Jadwigi w Sierczy;17540;359;1
-29;Budowa instalacji fotowoltaicznej na budynku Domu Ludowego w Grabiu;35000;327;1
-33;Zielona Aleja;20280;325;1
-17;Wykonanie nasadzeń na skarpie przy Cmentarzu Parafialnym w Podstolicach;39960;324;1
-70;Rosnę latem jesienią i na wiosnę - utworzenie łąki kwietnej na skwerku między Przedszkolem Samorządowym w Mietniowie im. J. Latuska a świetlicą środowiskową w Mietniowie;14403;310;1
-34;Zielona Lednica i okolica;12000;294;1
-87;Rewitalizacja zielonego skweru na ekoplac zabaw i rekreacji w Śledziejowicach;74000;292;0
-8;Zielony Zakątek na Rynku;32210;289;0
-9;Zakup i montaż paneli fotowoltaicznych na dachu świetlicy w Lednicy Górnej 451;50000;288;1
-26;Myśl ekoglobalnie - działaj lokalnie - co możemy zdziałać dla Szkoły Podstawowej w Janowicach w dziedzinie ochrony środowiska.;20000;281;1
-71;Zagospodarowanie skarpy przy budynku Szkoły Podstawowej w Gorzkowie;30000;261;1
-88;Kolorowa łąka kwietna na terenach gminnych przy boisku sportowym w Zabawie;24000;253;1
-36;Łąka kwietna;2760;247;1
-62;Zakup serca na zakrętki plastikowe w ramach ekologii przy Szkole Podstawowej w Byszycach;2500;237;1
-81;"Sensoryczna ścieżka dla dzieci oraz domki dla zwierząt w Parku ""Stok pod Baranem"" - wykonane z ekologicznych recyklingowanych materiałów";68000;233;0
-61;Zagospodarowanie pętli autobusowej w miejscowości Byszyce o powierzchni 500m2;51732;229;1
-13;Ścieżka przyrodniczo-edukacyjna w Sygneczowie;92840;228;0
-31;Kwietne i zielone tereny przy Placu Zabaw w Golkowicach;95000;200;0
-68;Psi kącik - wybieg dla psów w Parku Mickiewicza;56900;196;0
-86;Rewitalizacja stawu w Śledziejowicach;78000;196;0
-63;Ścieżka spacerowa do wzgórza Kaim;92550;194;0
-80;"Drzewne przytulasy i relaksacyjne gniazda w Parku ""Stok pod Baranem""";75000;188;0
-7;zagospodarowanie wysepki przy pętli autowusowej w miejscowosci Grabówki na skrzyzowaniu drogi powiatowej nr 2028 K i drogi 2029K;25000;186;1
-27;Montaż paneli fotowoltaicznych oraz wymiana lamp na oświetlenie LED na boisku sportowym LKS GWIAZDA BRZEGI;100000;183;0
-30;Zielona Szkoła w Golkowicach;90000;181;0
-84;Park w Sierczy;58000;180;0
-46;Utworzenie Parków Kieszonkowych w Czarnochowicach;36000;174;1
-54;Rekonstrukcja alei drzew na Trakcie Solnym w Wieliczce (dawny C. K. Salinarny Trakt Powroźniczy na Turówce);24000;173;0
-52;Fontanna filtrująca wodę w parku Mickiewicza;80000;171;0
-79;Ekologiczny portal wraz z zielonym labiryntem w Parku Adama Mickiewicza;73000;167;0
-18;Ekomural przy Szkole Podstawowej w Grajowie;51600;163;0
-85;Drewniana kładka w parku Adama Mickiewicza;47000;163;0
-64;Montaż lamp doświetlających boisko na Osiedlu Lekarka;45500;161;0
-56;Ekodonice;2000;157;1
-65;Rewitalizacja terenów zielonych wraz z otoczeniem Domu Ludowego w Czarnochowicach;50000;155;0
-66;Kwietna łąka w Czarnochowicach na dz. 166/13 oraz 166/18;9000;144;0
-44;Ekoszlak;75000;140;0
-67;Kwietna łąka w Czarnochowicach na dz. 166/16 oraz dz. 313;16500;140;0
-78;Kwietne instalacje w Parku Adama Mickiewicza: kalejdoskop roślinny + chromoterapia;67000;138;0
-82;Ekologiczna drewniana kopuła z motywami roślinnymi oraz relaksacyjne gniazda w Parku Adama Mickiewicza w Wieliczce;85000;131;0
-47;Leśny Park Kieszonkowy przy ul. Narutowicza w Wieliczce;92000;129;0
-51;Wybieg dla psów na os. Bogucice;37000;124;0
-55;Zielona Oaza;25294;121;0
-72;Zielone zacisze;36940;111;0
-69;Zielony zakątek;8300;101;1
-38;Instalacja fotowoltaiczna dla OSP Jankówka;100000;91;0
-48;Rewitalizacja Skweru Skarbnika;50000;84;0
-59;Wielicka Mapa Drzew;50000;81;0
-83;Ekologiczne zagospodarowanie ronda przy ulicy Piłsudskiego - zegar florystyczny oraz rzeźby;75000;80;0
+project_id;cost;votes;name;selected
+24;5000;720;Zakup 10 fotopułapek przeciwko śmieciarzom i dzikim wysypiskom;1
+41;85000;658;Stworzenie warunków rekreacyjnych dla mieszkańców Węgrzc Wielkich;1
+40;100000;583;Projekt zapobiegania bezdomności psów i kotów na terenie gminy Wieliczka poprzez podejmowanie takich działań jak: sterylizacja kastracja oraz chipowanie zwierząt a także inicjatyw związanych z edukacją mieszkańców gminy i promocją adopcji zwierząt;1
+74;70800;552;Rewitalizacja zieleni parku przy kościele św. Sebastiana w Wieliczce;1
+19;99800;538;Odbudowa populacji zagrożonych gatunków ichtiofauny oraz zwiększenie populacji ryb drapieżnych;1
+6;100000;500;Zielona Chorągwica - rewitalizacja terenów zielonych wraz z nasadzeniami;1
+21;100000;496;Budowa ścieżki edukacyjno-ekologicznej w Laskowcu w Pawlikowicach;0
+32;34999;428;Nasadzenie drzew krzewów i traw przy nowo budowanej ścieżce rekreacyjnej w Strumianach;1
+39;600;418;Budki lęgowe dla jerzyków;1
+58;32716;400;Zielony skwerek przy Szkole Podstawowej im. Królowej Jadwigi w Sierczy;1
+42;35720;388;Rewitalizacja zieleni na działce nr 484/4 przy świetlicy środowiskowej w Kokotowie;1
+25;30000;379;Eko KROKusy;1
+16;50000;376;Zielony Mi(lion)etniów - zielona lekcja;0
+43;3969;372;Kosze na śmieci w Węgrzcach Wielkich;1
+20;5000;362;Recykling z serca Dobranowic;1
+60;17540;359;Pracownia Ekologiczna w Szkole Podstawowej im. Królowej Jadwigi w Sierczy;1
+29;35000;327;Budowa instalacji fotowoltaicznej na budynku Domu Ludowego w Grabiu;1
+33;20280;325;Zielona Aleja;1
+17;39960;324;Wykonanie nasadzeń na skarpie przy Cmentarzu Parafialnym w Podstolicach;1
+70;14403;310;Rosnę latem jesienią i na wiosnę - utworzenie łąki kwietnej na skwerku między Przedszkolem Samorządowym w Mietniowie im. J. Latuska a świetlicą środowiskową w Mietniowie;1
+34;12000;294;Zielona Lednica i okolica;1
+87;74000;292;Rewitalizacja zielonego skweru na ekoplac zabaw i rekreacji w Śledziejowicach;0
+8;32210;289;Zielony Zakątek na Rynku;0
+9;50000;288;Zakup i montaż paneli fotowoltaicznych na dachu świetlicy w Lednicy Górnej 451;1
+26;20000;281;Myśl ekoglobalnie - działaj lokalnie - co możemy zdziałać dla Szkoły Podstawowej w Janowicach w dziedzinie ochrony środowiska.;1
+71;30000;261;Zagospodarowanie skarpy przy budynku Szkoły Podstawowej w Gorzkowie;1
+88;24000;253;Kolorowa łąka kwietna na terenach gminnych przy boisku sportowym w Zabawie;1
+36;2760;247;Łąka kwietna;1
+62;2500;237;Zakup serca na zakrętki plastikowe w ramach ekologii przy Szkole Podstawowej w Byszycach;1
+81;68000;233;"Sensoryczna ścieżka dla dzieci oraz domki dla zwierząt w Parku ""Stok pod Baranem"" - wykonane z ekologicznych recyklingowanych materiałów";0
+61;51732;229;Zagospodarowanie pętli autobusowej w miejscowości Byszyce o powierzchni 500m2;1
+13;92840;228;Ścieżka przyrodniczo-edukacyjna w Sygneczowie;0
+31;95000;200;Kwietne i zielone tereny przy Placu Zabaw w Golkowicach;0
+68;56900;196;Psi kącik - wybieg dla psów w Parku Mickiewicza;0
+86;78000;196;Rewitalizacja stawu w Śledziejowicach;0
+63;92550;194;Ścieżka spacerowa do wzgórza Kaim;0
+80;75000;188;"Drzewne przytulasy i relaksacyjne gniazda w Parku ""Stok pod Baranem""";0
+7;25000;186;zagospodarowanie wysepki przy pętli autowusowej w miejscowosci Grabówki na skrzyzowaniu drogi powiatowej nr 2028 K i drogi 2029K;1
+27;100000;183;Montaż paneli fotowoltaicznych oraz wymiana lamp na oświetlenie LED na boisku sportowym LKS GWIAZDA BRZEGI;0
+30;90000;181;Zielona Szkoła w Golkowicach;0
+84;58000;180;Park w Sierczy;0
+46;36000;174;Utworzenie Parków Kieszonkowych w Czarnochowicach;1
+54;24000;173;Rekonstrukcja alei drzew na Trakcie Solnym w Wieliczce (dawny C. K. Salinarny Trakt Powroźniczy na Turówce);0
+52;80000;171;Fontanna filtrująca wodę w parku Mickiewicza;0
+79;73000;167;Ekologiczny portal wraz z zielonym labiryntem w Parku Adama Mickiewicza;0
+18;51600;163;Ekomural przy Szkole Podstawowej w Grajowie;0
+85;47000;163;Drewniana kładka w parku Adama Mickiewicza;0
+64;45500;161;Montaż lamp doświetlających boisko na Osiedlu Lekarka;0
+56;2000;157;Ekodonice;1
+65;50000;155;Rewitalizacja terenów zielonych wraz z otoczeniem Domu Ludowego w Czarnochowicach;0
+66;9000;144;Kwietna łąka w Czarnochowicach na dz. 166/13 oraz 166/18;0
+44;75000;140;Ekoszlak;0
+67;16500;140;Kwietna łąka w Czarnochowicach na dz. 166/16 oraz dz. 313;0
+78;67000;138;Kwietne instalacje w Parku Adama Mickiewicza: kalejdoskop roślinny + chromoterapia;0
+82;85000;131;Ekologiczna drewniana kopuła z motywami roślinnymi oraz relaksacyjne gniazda w Parku Adama Mickiewicza w Wieliczce;0
+47;92000;129;Leśny Park Kieszonkowy przy ul. Narutowicza w Wieliczce;0
+51;37000;124;Wybieg dla psów na os. Bogucice;0
+55;25294;121;Zielona Oaza;0
+72;36940;111;Zielone zacisze;0
+69;8300;101;Zielony zakątek;1
+38;100000;91;Instalacja fotowoltaiczna dla OSP Jankówka;0
+48;50000;84;Rewitalizacja Skweru Skarbnika;0
+59;50000;81;Wielicka Mapa Drzew;0
+83;75000;80;Ekologiczne zagospodarowanie ronda przy ulicy Piłsudskiego - zegar florystyczny oraz rzeźby;0
 VOTES
 voter_id;vote
 1;70,20,21,25,6

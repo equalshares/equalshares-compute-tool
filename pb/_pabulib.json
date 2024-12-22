@@ -1,0 +1,4096 @@
+{
+    "Worldwide": {
+        "Mechanical Turk": [
+            {
+                "num_voters": 70,
+                "num_projects": 20,
+                "description": "Experimental PB on Mechanical Turk | Threshold_8",
+                "filename": "worldwide_mechanical-turk_threshold-8_.pb"
+            },
+            {
+                "num_voters": 77,
+                "num_projects": 20,
+                "description": "Experimental PB on Mechanical Turk | Threshold_7",
+                "filename": "worldwide_mechanical-turk_threshold-7_.pb"
+            },
+            {
+                "num_voters": 71,
+                "num_projects": 10,
+                "description": "Experimental PB on Mechanical Turk | Threshold_6",
+                "filename": "worldwide_mechanical-turk_threshold-6_.pb"
+            },
+            {
+                "num_voters": 79,
+                "num_projects": 10,
+                "description": "Experimental PB on Mechanical Turk | Threshold_3",
+                "filename": "worldwide_mechanical-turk_threshold-3_.pb"
+            },
+            {
+                "num_voters": 70,
+                "num_projects": 20,
+                "description": "Experimental PB on Mechanical Turk | Knapsack_8",
+                "filename": "worldwide_mechanical-turk_knapsack-8_.pb"
+            },
+            {
+                "num_voters": 69,
+                "num_projects": 20,
+                "description": "Experimental PB on Mechanical Turk | Knapsack_7",
+                "filename": "worldwide_mechanical-turk_knapsack-7_.pb"
+            },
+            {
+                "num_voters": 75,
+                "num_projects": 10,
+                "description": "Experimental PB on Mechanical Turk | Knapsack_6",
+                "filename": "worldwide_mechanical-turk_knapsack-6_.pb"
+            },
+            {
+                "num_voters": 77,
+                "num_projects": 10,
+                "description": "Experimental PB on Mechanical Turk | Knapsack_3",
+                "filename": "worldwide_mechanical-turk_knapsack-3_.pb"
+            },
+            {
+                "num_voters": 74,
+                "num_projects": 20,
+                "description": "Experimental PB on Mechanical Turk | k_approval_8",
+                "filename": "worldwide_mechanical-turk_k-approval-8_.pb"
+            },
+            {
+                "num_voters": 73,
+                "num_projects": 20,
+                "description": "Experimental PB on Mechanical Turk | k_approval_7",
+                "filename": "worldwide_mechanical-turk_k-approval-7_.pb"
+            },
+            {
+                "num_voters": 79,
+                "num_projects": 10,
+                "description": "Experimental PB on Mechanical Turk | k_approval_6",
+                "filename": "worldwide_mechanical-turk_k-approval-6_.pb"
+            },
+            {
+                "num_voters": 76,
+                "num_projects": 10,
+                "description": "Experimental PB on Mechanical Turk | k_approval_3",
+                "filename": "worldwide_mechanical-turk_k-approval-3_.pb"
+            }
+        ]
+    },
+    "US": {
+        "Stanford Dataset": [
+            {
+                "num_voters": 272,
+                "num_projects": 8,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 7",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-7_vote-approvals.pb"
+            },
+            {
+                "num_voters": 221,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 6",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-6_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 905,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 6",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-6_vote-approvals.pb"
+            },
+            {
+                "num_voters": 149,
+                "num_projects": 8,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 5",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-5_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 604,
+                "num_projects": 8,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 5",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-5_vote-approvals.pb"
+            },
+            {
+                "num_voters": 287,
+                "num_projects": 6,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 4",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-4_vote-approvals.pb"
+            },
+            {
+                "num_voters": 175,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 3",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-3_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 696,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 3",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-3_vote-approvals.pb"
+            },
+            {
+                "num_voters": 336,
+                "num_projects": 8,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 2",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-2_vote-approvals.pb"
+            },
+            {
+                "num_voters": 232,
+                "num_projects": 11,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 1",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-1_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 994,
+                "num_projects": 11,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2019 District 1",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2019-district-1_vote-approvals.pb"
+            },
+            {
+                "num_voters": 541,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 7",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-7_vote-approvals.pb"
+            },
+            {
+                "num_voters": 903,
+                "num_projects": 11,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 6",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-6_vote-approvals.pb"
+            },
+            {
+                "num_voters": 590,
+                "num_projects": 11,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 5",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-5_vote-approvals.pb"
+            },
+            {
+                "num_voters": 682,
+                "num_projects": 9,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 4",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-4_vote-approvals.pb"
+            },
+            {
+                "num_voters": 563,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 3",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-3_vote-approvals.pb"
+            },
+            {
+                "num_voters": 707,
+                "num_projects": 15,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 2",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-2_vote-approvals.pb"
+            },
+            {
+                "num_voters": 599,
+                "num_projects": 11,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2018 District 1",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2018-district-1_vote-approvals.pb"
+            },
+            {
+                "num_voters": 666,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 7",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-7_vote-approvals.pb"
+            },
+            {
+                "num_voters": 872,
+                "num_projects": 8,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 6",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-6_vote-approvals.pb"
+            },
+            {
+                "num_voters": 1431,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 5",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-5_vote-approvals.pb"
+            },
+            {
+                "num_voters": 594,
+                "num_projects": 9,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 4",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-4_vote-approvals.pb"
+            },
+            {
+                "num_voters": 431,
+                "num_projects": 10,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 3",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-3_vote-approvals.pb"
+            },
+            {
+                "num_voters": 820,
+                "num_projects": 9,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 2",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-2_vote-approvals.pb"
+            },
+            {
+                "num_voters": 507,
+                "num_projects": 9,
+                "description": "Your Voice Your Choice: Parks and Streets- Seattle 2017 District 1",
+                "filename": "us_stanford-dataset_your-voice-your-choice-parks-and-streets-seattle-2017-district-1_vote-approvals.pb"
+            },
+            {
+                "num_voters": 212,
+                "num_projects": 20,
+                "description": "South Lake Tahoe 2021 Quadrant 3",
+                "filename": "us_stanford-dataset_south-lake-tahoe-2021-quadrant-3_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 609,
+                "num_projects": 20,
+                "description": "South Lake Tahoe 2021 Quadrant 1",
+                "filename": "us_stanford-dataset_south-lake-tahoe-2021-quadrant-1_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1169,
+                "num_projects": 31,
+                "description": "SF Tenderloin December 2022",
+                "filename": "us_stanford-dataset_sf-tenderloin-december-2022_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1709,
+                "num_projects": 11,
+                "description": "PB Vallejo 2021",
+                "filename": "us_stanford-dataset_pb-vallejo-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 1687,
+                "num_projects": 12,
+                "description": "PB Vallejo 2019-2",
+                "filename": "us_stanford-dataset_pb-vallejo-2019-2_vote-approvals.pb"
+            },
+            {
+                "num_voters": 2450,
+                "num_projects": 10,
+                "description": "PB Vallejo 2018",
+                "filename": "us_stanford-dataset_pb-vallejo-2018_vote-approvals.pb"
+            },
+            {
+                "num_voters": 2698,
+                "num_projects": 19,
+                "description": "PB Vallejo 2017",
+                "filename": "us_stanford-dataset_pb-vallejo-2017_vote-approvals.pb"
+            },
+            {
+                "num_voters": 1851,
+                "num_projects": 17,
+                "description": "PB Vallejo 2015",
+                "filename": "us_stanford-dataset_pb-vallejo-2015_vote-approvals.pb"
+            },
+            {
+                "num_voters": 486,
+                "num_projects": 19,
+                "description": "PB Seattle 2016",
+                "filename": "us_stanford-dataset_pb-seattle-2016_vote-approvals.pb"
+            },
+            {
+                "num_voters": 740,
+                "num_projects": 22,
+                "description": "PB Rochester NY 2019",
+                "filename": "us_stanford-dataset_pb-rochester-ny-2019_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 996,
+                "num_projects": 11,
+                "description": "PB North East San Fernando Valley 2021",
+                "filename": "us_stanford-dataset_pb-north-east-san-fernando-valley-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 677,
+                "num_projects": 10,
+                "description": "PB Merced County District 2 2018",
+                "filename": "us_stanford-dataset_pb-merced-county-district-2-2018_vote-approvals.pb"
+            },
+            {
+                "num_voters": 162,
+                "num_projects": 9,
+                "description": "PB Long Beach District 9 2016",
+                "filename": "us_stanford-dataset_pb-long-beach-district-9-2016_vote-approvals.pb"
+            },
+            {
+                "num_voters": 229,
+                "num_projects": 11,
+                "description": "PB Long Beach District 9 2015",
+                "filename": "us_stanford-dataset_pb-long-beach-district-9-2015_vote-approvals.pb"
+            },
+            {
+                "num_voters": 518,
+                "num_projects": 5,
+                "description": "PB Greensboro District 5 2019",
+                "filename": "us_stanford-dataset_pb-greensboro-district-5-2019_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1249,
+                "num_projects": 6,
+                "description": "PB Greensboro District 4 2019",
+                "filename": "us_stanford-dataset_pb-greensboro-district-4-2019_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 102,
+                "num_projects": 14,
+                "description": "PB Greensboro District 4 2016",
+                "filename": "us_stanford-dataset_pb-greensboro-district-4-2016_vote-approvals.pb"
+            },
+            {
+                "num_voters": 1365,
+                "num_projects": 6,
+                "description": "PB Greensboro District 3 2019",
+                "filename": "us_stanford-dataset_pb-greensboro-district-3-2019_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 469,
+                "num_projects": 7,
+                "description": "PB Greensboro District 2 2019",
+                "filename": "us_stanford-dataset_pb-greensboro-district-2-2019_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 439,
+                "num_projects": 7,
+                "description": "PB Greensboro District 1 2019",
+                "filename": "us_stanford-dataset_pb-greensboro-district-1-2019_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 320,
+                "num_projects": 5,
+                "description": "PB Chicago 49th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-49th-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 609,
+                "num_projects": 11,
+                "description": "PB Chicago 49th Ward 2019",
+                "filename": "us_stanford-dataset_pb-chicago-49th-ward-2019_vote-approvals.pb"
+            },
+            {
+                "num_voters": 572,
+                "num_projects": 8,
+                "description": "PB Chicago 49th Ward 2018",
+                "filename": "us_stanford-dataset_pb-chicago-49th-ward-2018_vote-approvals.pb"
+            },
+            {
+                "num_voters": 811,
+                "num_projects": 9,
+                "description": "PB Chicago 49th Ward 2017",
+                "filename": "us_stanford-dataset_pb-chicago-49th-ward-2017_vote-approvals.pb"
+            },
+            {
+                "num_voters": 484,
+                "num_projects": 9,
+                "description": "PB Chicago 49th Ward 2016",
+                "filename": "us_stanford-dataset_pb-chicago-49th-ward-2016_vote-approvals.pb"
+            },
+            {
+                "num_voters": 355,
+                "num_projects": 10,
+                "description": "PB Chicago 49th Ward 2015",
+                "filename": "us_stanford-dataset_pb-chicago-49th-ward-2015_vote-approvals.pb"
+            },
+            {
+                "num_voters": 472,
+                "num_projects": 5,
+                "description": "PB Chicago 47th Ward 2022 Youth",
+                "filename": "us_stanford-dataset_pb-chicago-47th-ward-2022-youth_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1521,
+                "num_projects": 5,
+                "description": "PB Chicago 47th Ward 2022 Youth",
+                "filename": "us_stanford-dataset_pb-chicago-47th-ward-2022-youth_vote-approvals.pb"
+            },
+            {
+                "num_voters": 447,
+                "num_projects": 5,
+                "description": "PB Chicago 47th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-47th-ward-2021_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1358,
+                "num_projects": 5,
+                "description": "PB Chicago 47th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-47th-ward-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 517,
+                "num_projects": 7,
+                "description": "PB Chicago 47th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-47th-ward-2020_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1398,
+                "num_projects": 7,
+                "description": "PB Chicago 47th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-47th-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 373,
+                "num_projects": 18,
+                "description": "PB Chicago 45th Ward 2019",
+                "filename": "us_stanford-dataset_pb-chicago-45th-ward-2019_vote-approvals.pb"
+            },
+            {
+                "num_voters": 364,
+                "num_projects": 17,
+                "description": "PB Chicago 45th Ward 2017",
+                "filename": "us_stanford-dataset_pb-chicago-45th-ward-2017_vote-approvals.pb"
+            },
+            {
+                "num_voters": 246,
+                "num_projects": 7,
+                "description": "PB Chicago 40th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-40th-ward-2021_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 679,
+                "num_projects": 7,
+                "description": "PB Chicago 40th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-40th-ward-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 246,
+                "num_projects": 6,
+                "description": "PB Chicago 40th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-40th-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 407,
+                "num_projects": 22,
+                "description": "PB Chicago 39th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-39th-ward-2021_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 1536,
+                "num_projects": 22,
+                "description": "PB Chicago 39th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-39th-ward-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 280,
+                "num_projects": 13,
+                "description": "PB Chicago 39th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-39th-ward-2020_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 946,
+                "num_projects": 13,
+                "description": "PB Chicago 39th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-39th-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 214,
+                "num_projects": 8,
+                "description": "PB Chicago 36th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-36th-ward-2020_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 497,
+                "num_projects": 8,
+                "description": "PB Chicago 36th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-36th-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 158,
+                "num_projects": 8,
+                "description": "PB Chicago 36th Ward 2017",
+                "filename": "us_stanford-dataset_pb-chicago-36th-ward-2017_vote-approvals.pb"
+            },
+            {
+                "num_voters": 304,
+                "num_projects": 4,
+                "description": "PB Chicago 35th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-35th-ward-2021_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 115,
+                "num_projects": 5,
+                "description": "PB Chicago 35th Ward 2019",
+                "filename": "us_stanford-dataset_pb-chicago-35th-ward-2019_vote-approvals.pb"
+            },
+            {
+                "num_voters": 267,
+                "num_projects": 13,
+                "description": "PB Chicago 33rd Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-33rd-ward-2021_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 764,
+                "num_projects": 13,
+                "description": "PB Chicago 33rd Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-33rd-ward-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 234,
+                "num_projects": 8,
+                "description": "PB Chicago 33rd Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-33rd-ward-2020_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 713,
+                "num_projects": 8,
+                "description": "PB Chicago 33rd Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-33rd-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 274,
+                "num_projects": 8,
+                "description": "PB Chicago 29th Ward 2021",
+                "filename": "us_stanford-dataset_pb-chicago-29th-ward-2021_vote-approvals.pb"
+            },
+            {
+                "num_voters": 106,
+                "num_projects": 7,
+                "description": "PB Chicago 29th Ward 2020",
+                "filename": "us_stanford-dataset_pb-chicago-29th-ward-2020_vote-approvals.pb"
+            },
+            {
+                "num_voters": 107,
+                "num_projects": 6,
+                "description": "PB Chicago 10th Ward 2017",
+                "filename": "us_stanford-dataset_pb-chicago-10th-ward-2017_vote-approvals.pb"
+            },
+            {
+                "num_voters": 6447,
+                "num_projects": 20,
+                "description": "PB Cambridge 2019",
+                "filename": "us_stanford-dataset_pb-cambridge-2019_vote-approvals.pb"
+            },
+            {
+                "num_voters": 5846,
+                "num_projects": 20,
+                "description": "PB Cambridge 2018",
+                "filename": "us_stanford-dataset_pb-cambridge-2018_vote-approvals.pb"
+            },
+            {
+                "num_voters": 6014,
+                "num_projects": 20,
+                "description": "PB Cambridge 2017",
+                "filename": "us_stanford-dataset_pb-cambridge-2017_vote-approvals.pb"
+            },
+            {
+                "num_voters": 3762,
+                "num_projects": 20,
+                "description": "PB Cambridge 2016",
+                "filename": "us_stanford-dataset_pb-cambridge-2016_vote-approvals.pb"
+            },
+            {
+                "num_voters": 941,
+                "num_projects": 23,
+                "description": "PB Cambridge 2015",
+                "filename": "us_stanford-dataset_pb-cambridge-2015_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 3263,
+                "num_projects": 23,
+                "description": "PB Cambridge 2015",
+                "filename": "us_stanford-dataset_pb-cambridge-2015_vote-approvals.pb"
+            },
+            {
+                "num_voters": 148,
+                "num_projects": 36,
+                "description": "PB Adler 2021 Students",
+                "filename": "us_stanford-dataset_pb-adler-2021-students_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 104,
+                "num_projects": 36,
+                "description": "PB Adler 2021 Employees",
+                "filename": "us_stanford-dataset_pb-adler-2021-employees_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 166,
+                "num_projects": 6,
+                "description": "Participatory Budgeting Project PB2 2022 Ballot",
+                "filename": "us_stanford-dataset_participatory-budgeting-project-pb2-2022-ballot_vote-approvals.pb"
+            },
+            {
+                "num_voters": 129,
+                "num_projects": 12,
+                "description": "Participatory Budgeting Project PB2 2021 Ballot",
+                "filename": "us_stanford-dataset_participatory-budgeting-project-pb2-2021-ballot_vote-approvals.pb"
+            },
+            {
+                "num_voters": 449,
+                "num_projects": 4,
+                "description": "CNYCF Participatory Budgeting Project 2023",
+                "filename": "us_stanford-dataset_cnycf-participatory-budgeting-project-2023_vote-approvals.pb"
+            },
+            {
+                "num_voters": 822,
+                "num_projects": 19,
+                "description": "2023 Youth Power PB LB",
+                "filename": "us_stanford-dataset_2023-youth-power-pb-lb_vote-approvals.pb"
+            },
+            {
+                "num_voters": 132,
+                "num_projects": 9,
+                "description": "2022 Jersey City Ward F",
+                "filename": "us_stanford-dataset_2022-jersey-city-ward-f_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 364,
+                "num_projects": 12,
+                "description": "2022 Jersey City Ward E",
+                "filename": "us_stanford-dataset_2022-jersey-city-ward-e_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 245,
+                "num_projects": 12,
+                "description": "2022 Jersey City Ward D",
+                "filename": "us_stanford-dataset_2022-jersey-city-ward-d_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 187,
+                "num_projects": 10,
+                "description": "2022 Jersey City Ward C",
+                "filename": "us_stanford-dataset_2022-jersey-city-ward-c_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 127,
+                "num_projects": 7,
+                "description": "2022 Jersey City Ward B",
+                "filename": "us_stanford-dataset_2022-jersey-city-ward-b_vote-knapsacks.pb"
+            },
+            {
+                "num_voters": 356,
+                "num_projects": 8,
+                "description": "2022 Central Falls High School Participatory Budgeting Vote",
+                "filename": "us_stanford-dataset_2022-central-falls-high-school-participatory-budgeting-vote_vote-approvals.pb"
+            },
+            {
+                "num_voters": 238,
+                "num_projects": 9,
+                "description": "2021-22 Cal High Library PB",
+                "filename": "us_stanford-dataset_2021-22-cal-high-library-pb_vote-knapsacks.pb"
+            }
+        ]
+    },
+    "Switzerland": {
+        "Zurich": [
+            {
+                "num_voters": 180,
+                "num_projects": 24,
+                "description": "Qualtrics Zurich PB Experiment 2023, SN format",
+                "filename": "switzerland_zurich_sn_.pb"
+            },
+            {
+                "num_voters": 180,
+                "num_projects": 24,
+                "description": "Qualtrics Zurich PB Experiment 2023, S5 format",
+                "filename": "switzerland_zurich_s5_.pb"
+            }
+        ]
+    },
+    "Poland": {
+        "Wroc\u0142aw": [
+            {
+                "num_voters": 53801,
+                "num_projects": 39,
+                "description": "Municipal PB in Wroc\u0142aw",
+                "filename": "poland_wroclaw_2018_.pb"
+            },
+            {
+                "num_voters": 62529,
+                "num_projects": 50,
+                "description": "Municipal PB in Wroc\u0142aw",
+                "filename": "poland_wroclaw_2017_.pb"
+            },
+            {
+                "num_voters": 67103,
+                "num_projects": 52,
+                "description": "Municipal PB in Wroc\u0142aw",
+                "filename": "poland_wroclaw_2016_.pb"
+            }
+        ],
+        "Wieliczka": [
+            {
+                "num_voters": 6586,
+                "num_projects": 64,
+                "description": "Municipal PB in Wieliczka, Green Budget (Zielony Milion)",
+                "filename": "poland_wieliczka_2023_green-budget.pb"
+            }
+        ],
+        "Warszawa": [
+            {
+                "num_voters": 3014,
+                "num_projects": 46,
+                "description": "District PB in Warszawa, \u017boliborz",
+                "filename": "poland_warszawa_2025_zoliborz.pb"
+            },
+            {
+                "num_voters": 5050,
+                "num_projects": 63,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2025_wola.pb"
+            },
+            {
+                "num_voters": 1881,
+                "num_projects": 44,
+                "description": "District PB in Warszawa, W\u0142ochy",
+                "filename": "poland_warszawa_2025_wlochy.pb"
+            },
+            {
+                "num_voters": 1394,
+                "num_projects": 18,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2025_wilanow.pb"
+            },
+            {
+                "num_voters": 1586,
+                "num_projects": 44,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2025_wesola.pb"
+            },
+            {
+                "num_voters": 4124,
+                "num_projects": 54,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2025_wawer.pb"
+            },
+            {
+                "num_voters": 5011,
+                "num_projects": 63,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2025_ursynow.pb"
+            },
+            {
+                "num_voters": 4055,
+                "num_projects": 72,
+                "description": "District PB in Warszawa, Ursus",
+                "filename": "poland_warszawa_2025_ursus.pb"
+            },
+            {
+                "num_voters": 4938,
+                "num_projects": 88,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2025_targowek.pb"
+            },
+            {
+                "num_voters": 3842,
+                "num_projects": 53,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2025_srodmiescie.pb"
+            },
+            {
+                "num_voters": 989,
+                "num_projects": 34,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2025_rembertow.pb"
+            },
+            {
+                "num_voters": 8298,
+                "num_projects": 76,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2025_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 1853,
+                "num_projects": 64,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2025_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 3261,
+                "num_projects": 45,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2025_ochota.pb"
+            },
+            {
+                "num_voters": 7625,
+                "num_projects": 73,
+                "description": "District PB in Warszawa, Mokot\u00f3w",
+                "filename": "poland_warszawa_2025_mokotow.pb"
+            },
+            {
+                "num_voters": 4915,
+                "num_projects": 104,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2025_bielany.pb"
+            },
+            {
+                "num_voters": 7888,
+                "num_projects": 74,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2025_bialoleka.pb"
+            },
+            {
+                "num_voters": 4580,
+                "num_projects": 82,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2025_bemowo.pb"
+            },
+            {
+                "num_voters": 67615,
+                "num_projects": 86,
+                "description": "Municipal PB in Warszawa",
+                "filename": "poland_warszawa_2025_.pb"
+            },
+            {
+                "num_voters": 2845,
+                "num_projects": 46,
+                "description": "District PB in Warszawa, \u017boliborz",
+                "filename": "poland_warszawa_2024_zoliborz.pb"
+            },
+            {
+                "num_voters": 5689,
+                "num_projects": 61,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2024_wola.pb"
+            },
+            {
+                "num_voters": 1754,
+                "num_projects": 59,
+                "description": "District PB in Warszawa, W\u0142ochy",
+                "filename": "poland_warszawa_2024_wlochy.pb"
+            },
+            {
+                "num_voters": 1837,
+                "num_projects": 18,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2024_wilanow.pb"
+            },
+            {
+                "num_voters": 1009,
+                "num_projects": 32,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2024_wesola.pb"
+            },
+            {
+                "num_voters": 4761,
+                "num_projects": 95,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2024_wawer.pb"
+            },
+            {
+                "num_voters": 5870,
+                "num_projects": 60,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2024_ursynow.pb"
+            },
+            {
+                "num_voters": 4235,
+                "num_projects": 55,
+                "description": "District PB in Warszawa, Ursus",
+                "filename": "poland_warszawa_2024_ursus.pb"
+            },
+            {
+                "num_voters": 4510,
+                "num_projects": 81,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2024_targowek.pb"
+            },
+            {
+                "num_voters": 4044,
+                "num_projects": 51,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2024_srodmiescie.pb"
+            },
+            {
+                "num_voters": 1374,
+                "num_projects": 36,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2024_rembertow.pb"
+            },
+            {
+                "num_voters": 8244,
+                "num_projects": 66,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2024_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 2601,
+                "num_projects": 52,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2024_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 4038,
+                "num_projects": 49,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2024_ochota.pb"
+            },
+            {
+                "num_voters": 9442,
+                "num_projects": 76,
+                "description": "District PB in Warszawa, Mokot\u00f3w",
+                "filename": "poland_warszawa_2024_mokotow.pb"
+            },
+            {
+                "num_voters": 5501,
+                "num_projects": 100,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2024_bielany.pb"
+            },
+            {
+                "num_voters": 8422,
+                "num_projects": 54,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2024_bialoleka.pb"
+            },
+            {
+                "num_voters": 5951,
+                "num_projects": 74,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2024_bemowo.pb"
+            },
+            {
+                "num_voters": 75255,
+                "num_projects": 118,
+                "description": "Municipal PB in Warszawa",
+                "filename": "poland_warszawa_2024_.pb"
+            },
+            {
+                "num_voters": 2506,
+                "num_projects": 31,
+                "description": "District PB in Warszawa, \u017boliborz",
+                "filename": "poland_warszawa_2023_zoliborz.pb"
+            },
+            {
+                "num_voters": 6760,
+                "num_projects": 67,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2023_wola.pb"
+            },
+            {
+                "num_voters": 2220,
+                "num_projects": 43,
+                "description": "District PB in Warszawa, W\u0142ochy",
+                "filename": "poland_warszawa_2023_wlochy.pb"
+            },
+            {
+                "num_voters": 2358,
+                "num_projects": 35,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2023_wilanow.pb"
+            },
+            {
+                "num_voters": 1181,
+                "num_projects": 29,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2023_wesola.pb"
+            },
+            {
+                "num_voters": 5091,
+                "num_projects": 79,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2023_wawer.pb"
+            },
+            {
+                "num_voters": 6260,
+                "num_projects": 64,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2023_ursynow.pb"
+            },
+            {
+                "num_voters": 4519,
+                "num_projects": 72,
+                "description": "District PB in Warszawa, Ursus",
+                "filename": "poland_warszawa_2023_ursus.pb"
+            },
+            {
+                "num_voters": 4680,
+                "num_projects": 97,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2023_targowek.pb"
+            },
+            {
+                "num_voters": 3883,
+                "num_projects": 47,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2023_srodmiescie.pb"
+            },
+            {
+                "num_voters": 1172,
+                "num_projects": 38,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2023_rembertow.pb"
+            },
+            {
+                "num_voters": 8922,
+                "num_projects": 81,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2023_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 2818,
+                "num_projects": 91,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2023_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 4392,
+                "num_projects": 81,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2023_ochota.pb"
+            },
+            {
+                "num_voters": 11067,
+                "num_projects": 81,
+                "description": "District PB in Warszawa, Mokot\u00f3w",
+                "filename": "poland_warszawa_2023_mokotow.pb"
+            },
+            {
+                "num_voters": 4956,
+                "num_projects": 98,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2023_bielany.pb"
+            },
+            {
+                "num_voters": 9173,
+                "num_projects": 72,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2023_bialoleka.pb"
+            },
+            {
+                "num_voters": 5180,
+                "num_projects": 83,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2023_bemowo.pb"
+            },
+            {
+                "num_voters": 78904,
+                "num_projects": 138,
+                "description": "Municipal PB in Warszawa",
+                "filename": "poland_warszawa_2023_.pb"
+            },
+            {
+                "num_voters": 2718,
+                "num_projects": 32,
+                "description": "District PB in Warszawa, \u017boliborz",
+                "filename": "poland_warszawa_2022_zoliborz.pb"
+            },
+            {
+                "num_voters": 9256,
+                "num_projects": 94,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2022_wola.pb"
+            },
+            {
+                "num_voters": 2468,
+                "num_projects": 54,
+                "description": "District PB in Warszawa, W\u0142ochy",
+                "filename": "poland_warszawa_2022_wlochy.pb"
+            },
+            {
+                "num_voters": 2400,
+                "num_projects": 25,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2022_wilanow.pb"
+            },
+            {
+                "num_voters": 1320,
+                "num_projects": 44,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2022_wesola.pb"
+            },
+            {
+                "num_voters": 5045,
+                "num_projects": 111,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2022_wawer.pb"
+            },
+            {
+                "num_voters": 6672,
+                "num_projects": 107,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2022_ursynow.pb"
+            },
+            {
+                "num_voters": 3628,
+                "num_projects": 75,
+                "description": "District PB in Warszawa, Ursus",
+                "filename": "poland_warszawa_2022_ursus.pb"
+            },
+            {
+                "num_voters": 4940,
+                "num_projects": 87,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2022_targowek.pb"
+            },
+            {
+                "num_voters": 3880,
+                "num_projects": 31,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2022_srodmiescie.pb"
+            },
+            {
+                "num_voters": 1288,
+                "num_projects": 66,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2022_rembertow.pb"
+            },
+            {
+                "num_voters": 10424,
+                "num_projects": 96,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2022_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 2614,
+                "num_projects": 90,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2022_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 4930,
+                "num_projects": 54,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2022_ochota.pb"
+            },
+            {
+                "num_voters": 11039,
+                "num_projects": 97,
+                "description": "District PB in Warszawa, Mokot\u00f3w",
+                "filename": "poland_warszawa_2022_mokotow.pb"
+            },
+            {
+                "num_voters": 6603,
+                "num_projects": 109,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2022_bielany.pb"
+            },
+            {
+                "num_voters": 7405,
+                "num_projects": 79,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2022_bialoleka.pb"
+            },
+            {
+                "num_voters": 4940,
+                "num_projects": 49,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2022_bemowo.pb"
+            },
+            {
+                "num_voters": 81234,
+                "num_projects": 129,
+                "description": "Municipal PB in Warszawa",
+                "filename": "poland_warszawa_2022_.pb"
+            },
+            {
+                "num_voters": 4697,
+                "num_projects": 67,
+                "description": "District PB in Warszawa, \u017boliborz",
+                "filename": "poland_warszawa_2021_zoliborz.pb"
+            },
+            {
+                "num_voters": 8647,
+                "num_projects": 107,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2021_wola.pb"
+            },
+            {
+                "num_voters": 3079,
+                "num_projects": 49,
+                "description": "District PB in Warszawa, W\u0142ochy",
+                "filename": "poland_warszawa_2021_wlochy.pb"
+            },
+            {
+                "num_voters": 3007,
+                "num_projects": 26,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2021_wilanow.pb"
+            },
+            {
+                "num_voters": 1487,
+                "num_projects": 40,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2021_wesola.pb"
+            },
+            {
+                "num_voters": 4662,
+                "num_projects": 100,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2021_wawer.pb"
+            },
+            {
+                "num_voters": 9338,
+                "num_projects": 105,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2021_ursynow.pb"
+            },
+            {
+                "num_voters": 4255,
+                "num_projects": 65,
+                "description": "District PB in Warszawa, Ursus",
+                "filename": "poland_warszawa_2021_ursus.pb"
+            },
+            {
+                "num_voters": 5495,
+                "num_projects": 91,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2021_targowek.pb"
+            },
+            {
+                "num_voters": 4092,
+                "num_projects": 51,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2021_srodmiescie.pb"
+            },
+            {
+                "num_voters": 1811,
+                "num_projects": 53,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2021_rembertow.pb"
+            },
+            {
+                "num_voters": 10568,
+                "num_projects": 106,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2021_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 3007,
+                "num_projects": 59,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2021_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 5552,
+                "num_projects": 90,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2021_ochota.pb"
+            },
+            {
+                "num_voters": 12933,
+                "num_projects": 98,
+                "description": "District PB in Warszawa, Mokot\u00f3w",
+                "filename": "poland_warszawa_2021_mokotow.pb"
+            },
+            {
+                "num_voters": 8172,
+                "num_projects": 132,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2021_bielany.pb"
+            },
+            {
+                "num_voters": 11063,
+                "num_projects": 110,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2021_bialoleka.pb"
+            },
+            {
+                "num_voters": 5867,
+                "num_projects": 48,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2021_bemowo.pb"
+            },
+            {
+                "num_voters": 95899,
+                "num_projects": 106,
+                "description": "Municipal PB in Warszawa",
+                "filename": "poland_warszawa_2021_.pb"
+            },
+            {
+                "num_voters": 6848,
+                "num_projects": 98,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2020_wola.pb"
+            },
+            {
+                "num_voters": 2374,
+                "num_projects": 45,
+                "description": "District PB in Warszawa, W\u0142ochy",
+                "filename": "poland_warszawa_2020_wlochy.pb"
+            },
+            {
+                "num_voters": 2600,
+                "num_projects": 43,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2020_wilanow.pb"
+            },
+            {
+                "num_voters": 1505,
+                "num_projects": 21,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2020_wesola.pb"
+            },
+            {
+                "num_voters": 5452,
+                "num_projects": 137,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2020_wawer.pb"
+            },
+            {
+                "num_voters": 10105,
+                "num_projects": 121,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2020_ursynow.pb"
+            },
+            {
+                "num_voters": 3187,
+                "num_projects": 30,
+                "description": "District PB in Warszawa, Ursus",
+                "filename": "poland_warszawa_2020_ursus.pb"
+            },
+            {
+                "num_voters": 5438,
+                "num_projects": 88,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2020_targowek.pb"
+            },
+            {
+                "num_voters": 3197,
+                "num_projects": 38,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2020_srodmiescie.pb"
+            },
+            {
+                "num_voters": 1515,
+                "num_projects": 41,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2020_rembertow.pb"
+            },
+            {
+                "num_voters": 14897,
+                "num_projects": 134,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2020_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 2948,
+                "num_projects": 68,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2020_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 5115,
+                "num_projects": 51,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2020_ochota.pb"
+            },
+            {
+                "num_voters": 12021,
+                "num_projects": 118,
+                "description": "District PB in Warszawa, Mokot\u00f3w",
+                "filename": "poland_warszawa_2020_mokotow.pb"
+            },
+            {
+                "num_voters": 8003,
+                "num_projects": 108,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2020_bielany.pb"
+            },
+            {
+                "num_voters": 10756,
+                "num_projects": 113,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2020_bialoleka.pb"
+            },
+            {
+                "num_voters": 5458,
+                "num_projects": 44,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2020_bemowo.pb"
+            },
+            {
+                "num_voters": 86721,
+                "num_projects": 101,
+                "description": "Municipal PB in Warszawa",
+                "filename": "poland_warszawa_2020_.pb"
+            },
+            {
+                "num_voters": 1506,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Zielony Ursyn\u00f3w",
+                "filename": "poland_warszawa_2019_zielony-ursynow.pb"
+            },
+            {
+                "num_voters": 331,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Wawer | Zerze\u0144",
+                "filename": "poland_warszawa_2019_zerzen.pb"
+            },
+            {
+                "num_voters": 454,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Zacisze",
+                "filename": "poland_warszawa_2019_zacisze.pb"
+            },
+            {
+                "num_voters": 1560,
+                "num_projects": 27,
+                "description": "Local PB in Warszawa, Bielany | Wrzeciono,M\u0142ociny",
+                "filename": "poland_warszawa_2019_wrzeciono-mlociny.pb"
+            },
+            {
+                "num_voters": 4076,
+                "num_projects": 26,
+                "description": "District PB in Warszawa, Wola",
+                "filename": "poland_warszawa_2019_wola.pb"
+            },
+            {
+                "num_voters": 3005,
+                "num_projects": 24,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | Wierzbno Wygl\u0119d\u00f3w",
+                "filename": "poland_warszawa_2019_wierzbno-wygledow.pb"
+            },
+            {
+                "num_voters": 1578,
+                "num_projects": 25,
+                "description": "District PB in Warszawa, Weso\u0142a",
+                "filename": "poland_warszawa_2019_wesola.pb"
+            },
+            {
+                "num_voters": 1837,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Bielany | Wawrzyszew",
+                "filename": "poland_warszawa_2019_wawrzyszew.pb"
+            },
+            {
+                "num_voters": 3495,
+                "num_projects": 48,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2019_wawer.pb"
+            },
+            {
+                "num_voters": 7683,
+                "num_projects": 58,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2019_ursynow.pb"
+            },
+            {
+                "num_voters": 3990,
+                "num_projects": 42,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Ursyn\u00f3w Po\u0142udniowy",
+                "filename": "poland_warszawa_2019_ursynow-poludniowy.pb"
+            },
+            {
+                "num_voters": 3779,
+                "num_projects": 51,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Ursyn\u00f3w P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2019_ursynow-polnocny.pb"
+            },
+            {
+                "num_voters": 1887,
+                "num_projects": 26,
+                "description": "Local PB in Warszawa, Ursus | Ursus Po\u0142udniowy",
+                "filename": "poland_warszawa_2019_ursus-poludniowy.pb"
+            },
+            {
+                "num_voters": 1534,
+                "num_projects": 26,
+                "description": "Local PB in Warszawa, Ursus | Ursus P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2019_ursus-polnocny.pb"
+            },
+            {
+                "num_voters": 2701,
+                "num_projects": 29,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2019_targowek.pb"
+            },
+            {
+                "num_voters": 623,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Targ\u00f3wek Mieszkaniowy",
+                "filename": "poland_warszawa_2019_targowek-mieszkaniowy.pb"
+            },
+            {
+                "num_voters": 344,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Targ\u00f3wek Fabryczny,Elsner\u00f3w i Utrata",
+                "filename": "poland_warszawa_2019_targowek-fabryczny-elsnerow-i-utrata.pb"
+            },
+            {
+                "num_voters": 1552,
+                "num_projects": 16,
+                "description": "Local PB in Warszawa, Ochota | Szcz\u0119\u015bliwice",
+                "filename": "poland_warszawa_2019_szczesliwice.pb"
+            },
+            {
+                "num_voters": 1667,
+                "num_projects": 27,
+                "description": "District PB in Warszawa, subunit W\u0142ochy",
+                "filename": "poland_warszawa_2019_subunit-wlochy.pb"
+            },
+            {
+                "num_voters": 287,
+                "num_projects": 6,
+                "description": "District PB in Warszawa, subunit Wawer",
+                "filename": "poland_warszawa_2019_subunit-wawer.pb"
+            },
+            {
+                "num_voters": 5318,
+                "num_projects": 25,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | Stary Mokot\u00f3w",
+                "filename": "poland_warszawa_2019_stary-mokotow.pb"
+            },
+            {
+                "num_voters": 413,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | Stare Miasto",
+                "filename": "poland_warszawa_2019_stare-miasto.pb"
+            },
+            {
+                "num_voters": 847,
+                "num_projects": 12,
+                "description": "Local PB in Warszawa, Bielany | Stare Bielany",
+                "filename": "poland_warszawa_2019_stare-bielany.pb"
+            },
+            {
+                "num_voters": 631,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, Ochota | Stara Ochota",
+                "filename": "poland_warszawa_2019_stara-ochota.pb"
+            },
+            {
+                "num_voters": 2458,
+                "num_projects": 17,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2019_srodmiescie.pb"
+            },
+            {
+                "num_voters": 934,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | \u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+                "filename": "poland_warszawa_2019_srodmiescie-poludniowe.pb"
+            },
+            {
+                "num_voters": 1006,
+                "num_projects": 16,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | S\u0142u\u017cewiec",
+                "filename": "poland_warszawa_2019_sluzewiec.pb"
+            },
+            {
+                "num_voters": 663,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | S\u0142u\u017cew",
+                "filename": "poland_warszawa_2019_sluzew.pb"
+            },
+            {
+                "num_voters": 1439,
+                "num_projects": 41,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | Sielce",
+                "filename": "poland_warszawa_2019_sielce.pb"
+            },
+            {
+                "num_voters": 687,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | Siekierki August\u00f3wka",
+                "filename": "poland_warszawa_2019_siekierki-augustowka.pb"
+            },
+            {
+                "num_voters": 2207,
+                "num_projects": 34,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | Sadyba Stegny",
+                "filename": "poland_warszawa_2019_sadyba-stegny.pb"
+            },
+            {
+                "num_voters": 110,
+                "num_projects": 2,
+                "description": "Local PB in Warszawa, Wawer | Sadul",
+                "filename": "poland_warszawa_2019_sadul.pb"
+            },
+            {
+                "num_voters": 718,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, Bielany | Ruda,Marymont,Las Biela\u0144ski",
+                "filename": "poland_warszawa_2019_ruda-marymont-las-bielanski.pb"
+            },
+            {
+                "num_voters": 740,
+                "num_projects": 23,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2019_rembertow.pb"
+            },
+            {
+                "num_voters": 1485,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Wola | Rejon P\u00f3\u0142nocno-Zachodni",
+                "filename": "poland_warszawa_2019_rejon-polnocno-zachodni.pb"
+            },
+            {
+                "num_voters": 2680,
+                "num_projects": 39,
+                "description": "Local PB in Warszawa, Wola | Rejon P\u00f3\u0142nocno-Wschodni",
+                "filename": "poland_warszawa_2019_rejon-polnocno-wschodni.pb"
+            },
+            {
+                "num_voters": 1357,
+                "num_projects": 26,
+                "description": "Local PB in Warszawa, Ochota | Rakowiec",
+                "filename": "poland_warszawa_2019_rakowiec.pb"
+            },
+            {
+                "num_voters": 185,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wawer | Rado\u015b\u0107",
+                "filename": "poland_warszawa_2019_radosc.pb"
+            },
+            {
+                "num_voters": 142,
+                "num_projects": 1,
+                "description": "Local PB in Warszawa, Bielany | Radiowo,W\u00f3lka W\u0119glowa,Plac\u00f3wka,Huta",
+                "filename": "poland_warszawa_2019_radiowo-wolka-weglowa-placowka-huta.pb"
+            },
+            {
+                "num_voters": 1030,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | Przywi\u015ble",
+                "filename": "poland_warszawa_2019_przywisle.pb"
+            },
+            {
+                "num_voters": 274,
+                "num_projects": 4,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Przycz\u00f3\u0142ek Grochowski",
+                "filename": "poland_warszawa_2019_przyczolek-grochowski.pb"
+            },
+            {
+                "num_voters": 7343,
+                "num_projects": 35,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2019_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 1929,
+                "num_projects": 28,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2019_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 558,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, Bielany | Piaski",
+                "filename": "poland_warszawa_2019_piaski.pb"
+            },
+            {
+                "num_voters": 791,
+                "num_projects": 26,
+                "description": "Local PB in Warszawa, W\u0142ochy | Ok\u0119cie",
+                "filename": "poland_warszawa_2019_okecie.pb"
+            },
+            {
+                "num_voters": 2751,
+                "num_projects": 21,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2019_ochota.pb"
+            },
+            {
+                "num_voters": 1622,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Obszar IV-Wilan\u00f3w Zachodni,Osiedle Arbuzowa",
+                "filename": "poland_warszawa_2019_obszar-iv-wilanow-zachodni-osiedle-arbuzowa.pb"
+            },
+            {
+                "num_voters": 154,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Obszar III-Powsin,K\u0119pa Latoszkowa,Zamo\u015b\u0107,Latoszki",
+                "filename": "poland_warszawa_2019_obszar-iii-powsin-kepa-latoszkowa-zamosc-latoszki.pb"
+            },
+            {
+                "num_voters": 512,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Obszar II-Wilan\u00f3w Niski Wschodni,Zawady,Powsinek,K\u0119pa Zawadowska",
+                "filename": "poland_warszawa_2019_obszar-ii-wilanow-niski-wschodni-zawady-powsinek-kepa-zawadowska.pb"
+            },
+            {
+                "num_voters": 1123,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, Praga-P\u00f3\u0142noc | Obszar II-Stara Praga ze Szmulowizn\u0105 z Micha\u0142owem",
+                "filename": "poland_warszawa_2019_obszar-ii-stara-praga-ze-szmulowizna-z-michalowem.pb"
+            },
+            {
+                "num_voters": 242,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Obszar I-Wilan\u00f3w Wysoki,Wilan\u00f3w Niski Zachodni",
+                "filename": "poland_warszawa_2019_obszar-i-wilanow-wysoki-wilanow-niski-zachodni.pb"
+            },
+            {
+                "num_voters": 1134,
+                "num_projects": 20,
+                "description": "Local PB in Warszawa, Praga-P\u00f3\u0142noc | Obszar I-Nowa Praga z Pelcowizn\u0105",
+                "filename": "poland_warszawa_2019_obszar-i-nowa-praga-z-pelcowizna.pb"
+            },
+            {
+                "num_voters": 364,
+                "num_projects": 6,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 5-Pow\u0105zki",
+                "filename": "poland_warszawa_2019_obszar-5-powazki.pb"
+            },
+            {
+                "num_voters": 439,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 4-\u017boliborz Po\u0142udniowy",
+                "filename": "poland_warszawa_2019_obszar-4-zoliborz-poludniowy.pb"
+            },
+            {
+                "num_voters": 748,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Obszar 4-Piekie\u0142ko,\u017bera\u0144,Annopol",
+                "filename": "poland_warszawa_2019_obszar-4-piekielko-zeran-annopol.pb"
+            },
+            {
+                "num_voters": 606,
+                "num_projects": 12,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 3-Marymont-Potok-\u017boliborz Dziennikarski",
+                "filename": "poland_warszawa_2019_obszar-3-marymont-potok-zoliborz-dziennikarski.pb"
+            },
+            {
+                "num_voters": 2494,
+                "num_projects": 50,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Obszar 3-Kobia\u0142ka,August\u00f3w,Brzeziny,Grodzisk,Lewand\u00f3w",
+                "filename": "poland_warszawa_2019_obszar-3-kobialka-augustow-brzeziny-grodzisk-lewandow.pb"
+            },
+            {
+                "num_voters": 752,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 2-Sady \u017boliborskie-Zatrasie-Rudawka",
+                "filename": "poland_warszawa_2019_obszar-2-sady-zoliborskie-zatrasie-rudawka.pb"
+            },
+            {
+                "num_voters": 1773,
+                "num_projects": 35,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Obszar 2-Choszcz\u00f3wka,Bia\u0142o\u0142\u0119ka Dworska,D\u0105br\u00f3wka Szlachecka,Henryk\u00f3w,Szamocin",
+                "filename": "poland_warszawa_2019_obszar-2-choszczowka-bialoleka-dworska-dabrowka-szlachecka-henrykow-szamocin.pb"
+            },
+            {
+                "num_voters": 756,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 1-\u017boliborz Centralny",
+                "filename": "poland_warszawa_2019_obszar-1-zoliborz-centralny.pb"
+            },
+            {
+                "num_voters": 3976,
+                "num_projects": 61,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Obszar 1-Tarchomin,Nowodwory,K\u0119pa Tarchomi\u0144ska",
+                "filename": "poland_warszawa_2019_obszar-1-tarchomin-nowodwory-kepa-tarchominska.pb"
+            },
+            {
+                "num_voters": 205,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Wawer | Nadwi\u015ble",
+                "filename": "poland_warszawa_2019_nadwisle.pb"
+            },
+            {
+                "num_voters": 466,
+                "num_projects": 10,
+                "description": "Local PB in Warszawa, Wawer | Mi\u0119dzylesie",
+                "filename": "poland_warszawa_2019_miedzylesie.pb"
+            },
+            {
+                "num_voters": 295,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wawer | Miedzeszyn",
+                "filename": "poland_warszawa_2019_miedzeszyn.pb"
+            },
+            {
+                "num_voters": 1063,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | Miasto Ogr\u00f3d Sadyba",
+                "filename": "poland_warszawa_2019_miasto-ogrod-sadyba.pb"
+            },
+            {
+                "num_voters": 85,
+                "num_projects": 2,
+                "description": "Local PB in Warszawa, Wawer | Marysin Wawerski Po\u0142udniowy",
+                "filename": "poland_warszawa_2019_marysin-wawerski-poludniowy.pb"
+            },
+            {
+                "num_voters": 421,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Wawer | Marysin Wawerski P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2019_marysin-wawerski-polnocny.pb"
+            },
+            {
+                "num_voters": 127,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Wawer | Las",
+                "filename": "poland_warszawa_2019_las.pb"
+            },
+            {
+                "num_voters": 669,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Kamionek",
+                "filename": "poland_warszawa_2019_kamionek.pb"
+            },
+            {
+                "num_voters": 2106,
+                "num_projects": 32,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Po\u0142udniowy",
+                "filename": "poland_warszawa_2019_grochow-poludniowy.pb"
+            },
+            {
+                "num_voters": 642,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2019_grochow-polnocny.pb"
+            },
+            {
+                "num_voters": 491,
+                "num_projects": 10,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Kinowa",
+                "filename": "poland_warszawa_2019_grochow-kinowa.pb"
+            },
+            {
+                "num_voters": 598,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Centrum",
+                "filename": "poland_warszawa_2019_grochow-centrum.pb"
+            },
+            {
+                "num_voters": 2706,
+                "num_projects": 29,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Goc\u0142aw",
+                "filename": "poland_warszawa_2019_goclaw.pb"
+            },
+            {
+                "num_voters": 652,
+                "num_projects": 10,
+                "description": "Local PB in Warszawa, Wawer | Falenica",
+                "filename": "poland_warszawa_2019_falenica.pb"
+            },
+            {
+                "num_voters": 1588,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Bemowo | Chrzan\u00f3w,Jelonki Po\u0142udniowe,Jelonki P\u00f3\u0142nocne",
+                "filename": "poland_warszawa_2019_chrzanow-jelonki-poludniowe-jelonki-polnocne.pb"
+            },
+            {
+                "num_voters": 1175,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Bielany | Chomicz\u00f3wka",
+                "filename": "poland_warszawa_2019_chomiczowka.pb"
+            },
+            {
+                "num_voters": 972,
+                "num_projects": 24,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Br\u00f3dno",
+                "filename": "poland_warszawa_2019_brodno.pb"
+            },
+            {
+                "num_voters": 494,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Br\u00f3dno-Podgrodzie",
+                "filename": "poland_warszawa_2019_brodno-podgrodzie.pb"
+            },
+            {
+                "num_voters": 963,
+                "num_projects": 6,
+                "description": "Local PB in Warszawa, Bemowo | Boernerowo,Fort Radiowo,G\u00f3rce,Groty",
+                "filename": "poland_warszawa_2019_boernerowo-fort-radiowo-gorce-groty.pb"
+            },
+            {
+                "num_voters": 6134,
+                "num_projects": 34,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2019_bielany.pb"
+            },
+            {
+                "num_voters": 457,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Wawer | Anin",
+                "filename": "poland_warszawa_2019_anin.pb"
+            },
+            {
+                "num_voters": 529,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wawer | Aleksandr\u00f3w",
+                "filename": "poland_warszawa_2019_aleksandrow.pb"
+            },
+            {
+                "num_voters": 1533,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Zielony Ursyn\u00f3w",
+                "filename": "poland_warszawa_2018_zielony-ursynow.pb"
+            },
+            {
+                "num_voters": 678,
+                "num_projects": 6,
+                "description": "Local PB in Warszawa, Wawer | Zerze\u0144",
+                "filename": "poland_warszawa_2018_zerzen.pb"
+            },
+            {
+                "num_voters": 780,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Zacisze",
+                "filename": "poland_warszawa_2018_zacisze.pb"
+            },
+            {
+                "num_voters": 1356,
+                "num_projects": 22,
+                "description": "Local PB in Warszawa, Bielany | Wrzeciono,M\u0142ociny",
+                "filename": "poland_warszawa_2018_wrzeciono-mlociny.pb"
+            },
+            {
+                "num_voters": 2413,
+                "num_projects": 17,
+                "description": "District PB in Warszawa, Wilan\u00f3w",
+                "filename": "poland_warszawa_2018_wilanow.pb"
+            },
+            {
+                "num_voters": 901,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Wilan\u00f3w_Obszar II",
+                "filename": "poland_warszawa_2018_wilanow-obszar-ii.pb"
+            },
+            {
+                "num_voters": 1664,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Wilan\u00f3w_Obszar I",
+                "filename": "poland_warszawa_2018_wilanow-obszar-i.pb"
+            },
+            {
+                "num_voters": 4641,
+                "num_projects": 55,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2018_wawer.pb"
+            },
+            {
+                "num_voters": 4392,
+                "num_projects": 48,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Ursyn\u00f3w Wysoki Po\u0142udniowy",
+                "filename": "poland_warszawa_2018_ursynow-wysoki-poludniowy.pb"
+            },
+            {
+                "num_voters": 5201,
+                "num_projects": 62,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Ursyn\u00f3w Wysoki P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2018_ursynow-wysoki-polnocny.pb"
+            },
+            {
+                "num_voters": 2242,
+                "num_projects": 32,
+                "description": "Local PB in Warszawa, Ursus | Ursus Po\u0142udniowy",
+                "filename": "poland_warszawa_2018_ursus-poludniowy.pb"
+            },
+            {
+                "num_voters": 1551,
+                "num_projects": 20,
+                "description": "Local PB in Warszawa, Ursus | Ursus P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2018_ursus-polnocny.pb"
+            },
+            {
+                "num_voters": 2777,
+                "num_projects": 26,
+                "description": "Local PB in Warszawa, Wola | Ulrych\u00f3w + Odolany",
+                "filename": "poland_warszawa_2018_ulrychow-odolany.pb"
+            },
+            {
+                "num_voters": 4091,
+                "num_projects": 21,
+                "description": "District PB in Warszawa, Targ\u00f3wek",
+                "filename": "poland_warszawa_2018_targowek.pb"
+            },
+            {
+                "num_voters": 605,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Targ\u00f3wek Fabryczny,Elsner\u00f3w i Utrata",
+                "filename": "poland_warszawa_2018_targowek-fabryczny-elsnerow-i-utrata.pb"
+            },
+            {
+                "num_voters": 2082,
+                "num_projects": 34,
+                "description": "Local PB in Warszawa, Ochota | Szcz\u0119\u015bliwice",
+                "filename": "poland_warszawa_2018_szczesliwice.pb"
+            },
+            {
+                "num_voters": 301,
+                "num_projects": 5,
+                "description": "District PB in Warszawa, subunit Wawer",
+                "filename": "poland_warszawa_2018_subunit-wawer.pb"
+            },
+            {
+                "num_voters": 1253,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, W\u0142ochy | Stare W\u0142ochy",
+                "filename": "poland_warszawa_2018_stare-wlochy.pb"
+            },
+            {
+                "num_voters": 1205,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Bielany | Stare Bielany",
+                "filename": "poland_warszawa_2018_stare-bielany.pb"
+            },
+            {
+                "num_voters": 1717,
+                "num_projects": 29,
+                "description": "Local PB in Warszawa, Ochota | Stara Ochota",
+                "filename": "poland_warszawa_2018_stara-ochota.pb"
+            },
+            {
+                "num_voters": 3819,
+                "num_projects": 32,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2018_srodmiescie.pb"
+            },
+            {
+                "num_voters": 1391,
+                "num_projects": 28,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | \u015ar\u00f3dmie\u015bcie Po\u0142udniowe",
+                "filename": "poland_warszawa_2018_srodmiescie-poludniowe.pb"
+            },
+            {
+                "num_voters": 477,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | \u015ar\u00f3dmie\u015bcie P\u00f3\u0142nocne",
+                "filename": "poland_warszawa_2018_srodmiescie-polnocne.pb"
+            },
+            {
+                "num_voters": 1472,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Saska K\u0119pa",
+                "filename": "poland_warszawa_2018_saska-kepa.pb"
+            },
+            {
+                "num_voters": 1746,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, Bielany | Ruda,Marymont,Las Biela\u0144ski",
+                "filename": "poland_warszawa_2018_ruda-marymont-las-bielanski.pb"
+            },
+            {
+                "num_voters": 1517,
+                "num_projects": 31,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2018_rembertow.pb"
+            },
+            {
+                "num_voters": 1069,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 9",
+                "filename": "poland_warszawa_2018_rejon-9.pb"
+            },
+            {
+                "num_voters": 2119,
+                "num_projects": 37,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 8",
+                "filename": "poland_warszawa_2018_rejon-8.pb"
+            },
+            {
+                "num_voters": 955,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 7",
+                "filename": "poland_warszawa_2018_rejon-7.pb"
+            },
+            {
+                "num_voters": 2736,
+                "num_projects": 39,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 6",
+                "filename": "poland_warszawa_2018_rejon-6.pb"
+            },
+            {
+                "num_voters": 1286,
+                "num_projects": 25,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 5",
+                "filename": "poland_warszawa_2018_rejon-5.pb"
+            },
+            {
+                "num_voters": 1058,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 4",
+                "filename": "poland_warszawa_2018_rejon-4.pb"
+            },
+            {
+                "num_voters": 1601,
+                "num_projects": 39,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 3",
+                "filename": "poland_warszawa_2018_rejon-3.pb"
+            },
+            {
+                "num_voters": 3995,
+                "num_projects": 41,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 2",
+                "filename": "poland_warszawa_2018_rejon-2.pb"
+            },
+            {
+                "num_voters": 1484,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon 1",
+                "filename": "poland_warszawa_2018_rejon-1.pb"
+            },
+            {
+                "num_voters": 1364,
+                "num_projects": 29,
+                "description": "Local PB in Warszawa, Ochota | Rakowiec",
+                "filename": "poland_warszawa_2018_rakowiec.pb"
+            },
+            {
+                "num_voters": 792,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Wawer | Rado\u015b\u0107",
+                "filename": "poland_warszawa_2018_radosc.pb"
+            },
+            {
+                "num_voters": 149,
+                "num_projects": 1,
+                "description": "Local PB in Warszawa, Bielany | Radiowo,W\u00f3lka W\u0119glowa,Plac\u00f3wka,Huta",
+                "filename": "poland_warszawa_2018_radiowo-wolka-weglowa-placowka-huta.pb"
+            },
+            {
+                "num_voters": 8699,
+                "num_projects": 35,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2018_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 3157,
+                "num_projects": 32,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2018_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 8,
+                "num_projects": 1,
+                "description": "Local PB in Warszawa, Ochota | Pole Mokotowskie",
+                "filename": "poland_warszawa_2018_pole-mokotowskie.pb"
+            },
+            {
+                "num_voters": 823,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Bielany | Piaski",
+                "filename": "poland_warszawa_2018_piaski.pb"
+            },
+            {
+                "num_voters": 1507,
+                "num_projects": 27,
+                "description": "Local PB in Warszawa, Praga-P\u00f3\u0142noc | Obszar II-Stara Praga ze Szmulowizn\u0105 z Micha\u0142owem",
+                "filename": "poland_warszawa_2018_obszar-ii-stara-praga-ze-szmulowizna-z-michalowem.pb"
+            },
+            {
+                "num_voters": 2149,
+                "num_projects": 24,
+                "description": "Local PB in Warszawa, Praga-P\u00f3\u0142noc | Obszar I-Nowa Praga z Pelcowizn\u0105",
+                "filename": "poland_warszawa_2018_obszar-i-nowa-praga-z-pelcowizna.pb"
+            },
+            {
+                "num_voters": 3482,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 4-\u017boliborz Po\u0142udniowy-Pow\u0105zki",
+                "filename": "poland_warszawa_2018_obszar-4-zoliborz-poludniowy-powazki.pb"
+            },
+            {
+                "num_voters": 861,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 3-Marymont-Potok-\u017boliborz Dziennikarski",
+                "filename": "poland_warszawa_2018_obszar-3-marymont-potok-zoliborz-dziennikarski.pb"
+            },
+            {
+                "num_voters": 856,
+                "num_projects": 12,
+                "description": "Local PB in Warszawa, Weso\u0142a | Obszar 2 Stara Mi\u0142osna",
+                "filename": "poland_warszawa_2018_obszar-2-stara-milosna.pb"
+            },
+            {
+                "num_voters": 1518,
+                "num_projects": 27,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 2-Sady \u017boliborskie-Zatrasie",
+                "filename": "poland_warszawa_2018_obszar-2-sady-zoliborskie-zatrasie.pb"
+            },
+            {
+                "num_voters": 1131,
+                "num_projects": 30,
+                "description": "Local PB in Warszawa, \u017boliborz | Obszar 1-\u017boliborz Centralny",
+                "filename": "poland_warszawa_2018_obszar-1-zoliborz-centralny.pb"
+            },
+            {
+                "num_voters": 1061,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Weso\u0142a | Obszar 1 Plac Wojska Polskiego,Wola Grzybowska,Centrum,Grosz\u00f3wka,Grzybowa,Zielona",
+                "filename": "poland_warszawa_2018_obszar-1-plac-wojska-polskiego-wola-grzybowska-centrum-groszowka-grzybowa-zielona.pb"
+            },
+            {
+                "num_voters": 1672,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Wola | Nowolipki + Pow\u0105zki",
+                "filename": "poland_warszawa_2018_nowolipki-powazki.pb"
+            },
+            {
+                "num_voters": 1067,
+                "num_projects": 23,
+                "description": "Local PB in Warszawa, W\u0142ochy | Nowe W\u0142ochy",
+                "filename": "poland_warszawa_2018_nowe-wlochy.pb"
+            },
+            {
+                "num_voters": 229,
+                "num_projects": 12,
+                "description": "Local PB in Warszawa, W\u0142ochy | Niskie Ok\u0119cie",
+                "filename": "poland_warszawa_2018_niskie-okecie.pb"
+            },
+            {
+                "num_voters": 882,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | Muran\u00f3w",
+                "filename": "poland_warszawa_2018_muranow.pb"
+            },
+            {
+                "num_voters": 2136,
+                "num_projects": 23,
+                "description": "Local PB in Warszawa, Wola | M\u0142yn\u00f3w",
+                "filename": "poland_warszawa_2018_mlynow.pb"
+            },
+            {
+                "num_voters": 446,
+                "num_projects": 6,
+                "description": "Local PB in Warszawa, Wawer | Mi\u0119dzylesie",
+                "filename": "poland_warszawa_2018_miedzylesie.pb"
+            },
+            {
+                "num_voters": 454,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Wawer | Miedzeszyn",
+                "filename": "poland_warszawa_2018_miedzeszyn.pb"
+            },
+            {
+                "num_voters": 506,
+                "num_projects": 4,
+                "description": "Local PB in Warszawa, Wawer | Marysin Wawerski Po\u0142udniowy",
+                "filename": "poland_warszawa_2018_marysin-wawerski-poludniowy.pb"
+            },
+            {
+                "num_voters": 300,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Wawer | Marysin Wawerski P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2018_marysin-wawerski-polnocny.pb"
+            },
+            {
+                "num_voters": 1448,
+                "num_projects": 22,
+                "description": "Local PB in Warszawa, Bemowo | Lotnisko,Bemowo \u2013 Lotnisko,Fort Bema",
+                "filename": "poland_warszawa_2018_lotnisko-bemowo-lotnisko-fort-bema.pb"
+            },
+            {
+                "num_voters": 609,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Wola | Ko\u0142o",
+                "filename": "poland_warszawa_2018_kolo.pb"
+            },
+            {
+                "num_voters": 1225,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Kamionek",
+                "filename": "poland_warszawa_2018_kamionek.pb"
+            },
+            {
+                "num_voters": 2260,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Po\u0142udniowy",
+                "filename": "poland_warszawa_2018_grochow-poludniowy.pb"
+            },
+            {
+                "num_voters": 936,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2018_grochow-polnocny.pb"
+            },
+            {
+                "num_voters": 826,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Kinowa",
+                "filename": "poland_warszawa_2018_grochow-kinowa.pb"
+            },
+            {
+                "num_voters": 976,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Centrum",
+                "filename": "poland_warszawa_2018_grochow-centrum.pb"
+            },
+            {
+                "num_voters": 2827,
+                "num_projects": 34,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Goc\u0142aw",
+                "filename": "poland_warszawa_2018_goclaw.pb"
+            },
+            {
+                "num_voters": 498,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Wawer | Falenica",
+                "filename": "poland_warszawa_2018_falenica.pb"
+            },
+            {
+                "num_voters": 586,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wola | Czyste + Mir\u00f3w",
+                "filename": "poland_warszawa_2018_czyste-mirow.pb"
+            },
+            {
+                "num_voters": 2632,
+                "num_projects": 23,
+                "description": "Local PB in Warszawa, Bemowo | Chrzan\u00f3w,Jelonki P\u00f3\u0142nocne,Jelonki Po\u0142udniowe",
+                "filename": "poland_warszawa_2018_chrzanow-jelonki-polnocne-jelonki-poludniowe.pb"
+            },
+            {
+                "num_voters": 1541,
+                "num_projects": 16,
+                "description": "Local PB in Warszawa, Bielany | Chomicz\u00f3wka",
+                "filename": "poland_warszawa_2018_chomiczowka.pb"
+            },
+            {
+                "num_voters": 1779,
+                "num_projects": 31,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Br\u00f3dno",
+                "filename": "poland_warszawa_2018_brodno.pb"
+            },
+            {
+                "num_voters": 2006,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Br\u00f3dno-Podgrodzie",
+                "filename": "poland_warszawa_2018_brodno-podgrodzie.pb"
+            },
+            {
+                "num_voters": 1147,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Bemowo | Boernerowo,Fort Radiowo,Groty,G\u00f3rce",
+                "filename": "poland_warszawa_2018_boernerowo-fort-radiowo-groty-gorce.pb"
+            },
+            {
+                "num_voters": 8171,
+                "num_projects": 43,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2018_bielany.pb"
+            },
+            {
+                "num_voters": 8274,
+                "num_projects": 29,
+                "description": "District PB in Warszawa, Bia\u0142o\u0142\u0119ka",
+                "filename": "poland_warszawa_2018_bialoleka.pb"
+            },
+            {
+                "num_voters": 2176,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Bia\u0142o\u0142\u0119ka_obszar 3",
+                "filename": "poland_warszawa_2018_bialoleka-obszar-3.pb"
+            },
+            {
+                "num_voters": 2438,
+                "num_projects": 35,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Bia\u0142o\u0142\u0119ka_obszar 2",
+                "filename": "poland_warszawa_2018_bialoleka-obszar-2.pb"
+            },
+            {
+                "num_voters": 5220,
+                "num_projects": 48,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Bia\u0142o\u0142\u0119ka_obszar 1",
+                "filename": "poland_warszawa_2018_bialoleka-obszar-1.pb"
+            },
+            {
+                "num_voters": 585,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Wawer | Anin",
+                "filename": "poland_warszawa_2018_anin.pb"
+            },
+            {
+                "num_voters": 475,
+                "num_projects": 6,
+                "description": "Local PB in Warszawa, Wawer | Aleksandr\u00f3w",
+                "filename": "poland_warszawa_2018_aleksandrow.pb"
+            },
+            {
+                "num_voters": 1733,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, \u017boliborz | \u017boliborz Po\u0142udniowy-Pow\u0105zki",
+                "filename": "poland_warszawa_2017_zoliborz-poludniowy-powazki.pb"
+            },
+            {
+                "num_voters": 1119,
+                "num_projects": 23,
+                "description": "Local PB in Warszawa, \u017boliborz | \u017boliborz Centralny",
+                "filename": "poland_warszawa_2017_zoliborz-centralny.pb"
+            },
+            {
+                "num_voters": 743,
+                "num_projects": 12,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Zielony Ursyn\u00f3w",
+                "filename": "poland_warszawa_2017_zielony-ursynow.pb"
+            },
+            {
+                "num_voters": 268,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Weso\u0142a | Zielona,Grzybowa",
+                "filename": "poland_warszawa_2017_zielona-grzybowa.pb"
+            },
+            {
+                "num_voters": 327,
+                "num_projects": 2,
+                "description": "Local PB in Warszawa, Wawer | Zerze\u0144",
+                "filename": "poland_warszawa_2017_zerzen.pb"
+            },
+            {
+                "num_voters": 1107,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Zacisze",
+                "filename": "poland_warszawa_2017_zacisze.pb"
+            },
+            {
+                "num_voters": 729,
+                "num_projects": 22,
+                "description": "Local PB in Warszawa, W\u0142ochy | Wysokie Ok\u0119cie",
+                "filename": "poland_warszawa_2017_wysokie-okecie.pb"
+            },
+            {
+                "num_voters": 1735,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Bielany | Wrzeciono,M\u0142ociny",
+                "filename": "poland_warszawa_2017_wrzeciono-mlociny.pb"
+            },
+            {
+                "num_voters": 777,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Wilan\u00f3w_Obszar II",
+                "filename": "poland_warszawa_2017_wilanow-obszar-ii.pb"
+            },
+            {
+                "num_voters": 1669,
+                "num_projects": 22,
+                "description": "Local PB in Warszawa, Wilan\u00f3w | Wilan\u00f3w_Obszar I",
+                "filename": "poland_warszawa_2017_wilanow-obszar-i.pb"
+            },
+            {
+                "num_voters": 2238,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Bielany | Wawrzyszew",
+                "filename": "poland_warszawa_2017_wawrzyszew.pb"
+            },
+            {
+                "num_voters": 3604,
+                "num_projects": 51,
+                "description": "District PB in Warszawa, Wawer",
+                "filename": "poland_warszawa_2017_wawer.pb"
+            },
+            {
+                "num_voters": 1751,
+                "num_projects": 27,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | Wars",
+                "filename": "poland_warszawa_2017_wars.pb"
+            },
+            {
+                "num_voters": 7493,
+                "num_projects": 46,
+                "description": "District PB in Warszawa, Ursyn\u00f3w",
+                "filename": "poland_warszawa_2017_ursynow.pb"
+            },
+            {
+                "num_voters": 3258,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Ursyn\u00f3w Wysoki Po\u0142udniowy",
+                "filename": "poland_warszawa_2017_ursynow-wysoki-poludniowy.pb"
+            },
+            {
+                "num_voters": 4313,
+                "num_projects": 22,
+                "description": "Local PB in Warszawa, Ursyn\u00f3w | Ursyn\u00f3w Wysoki P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2017_ursynow-wysoki-polnocny.pb"
+            },
+            {
+                "num_voters": 1987,
+                "num_projects": 20,
+                "description": "Local PB in Warszawa, Ursus | Ursus Po\u0142udniowy",
+                "filename": "poland_warszawa_2017_ursus-poludniowy.pb"
+            },
+            {
+                "num_voters": 1158,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Ursus | Ursus P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2017_ursus-polnocny.pb"
+            },
+            {
+                "num_voters": 2784,
+                "num_projects": 31,
+                "description": "Local PB in Warszawa, Wola | Ulrych\u00f3w + Odolany",
+                "filename": "poland_warszawa_2017_ulrychow-odolany.pb"
+            },
+            {
+                "num_voters": 765,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Targ\u00f3wek Mieszkaniowy",
+                "filename": "poland_warszawa_2017_targowek-mieszkaniowy.pb"
+            },
+            {
+                "num_voters": 377,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Targ\u00f3wek Fabryczny,Elsner\u00f3w i Utrata",
+                "filename": "poland_warszawa_2017_targowek-fabryczny-elsnerow-i-utrata.pb"
+            },
+            {
+                "num_voters": 4849,
+                "num_projects": 63,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Tarchomin,Nowodwory,Piekie\u0142ko",
+                "filename": "poland_warszawa_2017_tarchomin-nowodwory-piekielko.pb"
+            },
+            {
+                "num_voters": 1326,
+                "num_projects": 26,
+                "description": "Local PB in Warszawa, Ochota | Szcz\u0119\u015bliwice",
+                "filename": "poland_warszawa_2017_szczesliwice.pb"
+            },
+            {
+                "num_voters": 373,
+                "num_projects": 5,
+                "description": "District PB in Warszawa, subunit Wawer",
+                "filename": "poland_warszawa_2017_subunit-wawer.pb"
+            },
+            {
+                "num_voters": 851,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, W\u0142ochy | Stare W\u0142ochy",
+                "filename": "poland_warszawa_2017_stare-wlochy.pb"
+            },
+            {
+                "num_voters": 1335,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Bielany | Stare Bielany",
+                "filename": "poland_warszawa_2017_stare-bielany.pb"
+            },
+            {
+                "num_voters": 967,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Praga-P\u00f3\u0142noc | Stara Praga i Szmulowizna z Micha\u0142owem",
+                "filename": "poland_warszawa_2017_stara-praga-i-szmulowizna-z-michalowem.pb"
+            },
+            {
+                "num_voters": 1265,
+                "num_projects": 22,
+                "description": "Local PB in Warszawa, Ochota | Stara Ochota",
+                "filename": "poland_warszawa_2017_stara-ochota.pb"
+            },
+            {
+                "num_voters": 1078,
+                "num_projects": 29,
+                "description": "Local PB in Warszawa, Weso\u0142a | Stara Mi\u0142osna",
+                "filename": "poland_warszawa_2017_stara-milosna.pb"
+            },
+            {
+                "num_voters": 5765,
+                "num_projects": 57,
+                "description": "District PB in Warszawa, \u015ar\u00f3dmie\u015bcie",
+                "filename": "poland_warszawa_2017_srodmiescie.pb"
+            },
+            {
+                "num_voters": 674,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Bielany | S\u0142odowiec",
+                "filename": "poland_warszawa_2017_slodowiec.pb"
+            },
+            {
+                "num_voters": 2370,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, \u015ar\u00f3dmie\u015bcie | Sawa",
+                "filename": "poland_warszawa_2017_sawa.pb"
+            },
+            {
+                "num_voters": 1470,
+                "num_projects": 23,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Saska K\u0119pa",
+                "filename": "poland_warszawa_2017_saska-kepa.pb"
+            },
+            {
+                "num_voters": 1135,
+                "num_projects": 16,
+                "description": "Local PB in Warszawa, \u017boliborz | Sady \u017boliborskie-Zatrasie",
+                "filename": "poland_warszawa_2017_sady-zoliborskie-zatrasie.pb"
+            },
+            {
+                "num_voters": 120,
+                "num_projects": 3,
+                "description": "Local PB in Warszawa, Wawer | Sadul",
+                "filename": "poland_warszawa_2017_sadul.pb"
+            },
+            {
+                "num_voters": 1147,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, Bielany | Ruda,Marymont,Las Biela\u0144ski",
+                "filename": "poland_warszawa_2017_ruda-marymont-las-bielanski.pb"
+            },
+            {
+                "num_voters": 1774,
+                "num_projects": 44,
+                "description": "District PB in Warszawa, Rembert\u00f3w",
+                "filename": "poland_warszawa_2017_rembertow.pb"
+            },
+            {
+                "num_voters": 3203,
+                "num_projects": 47,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon F",
+                "filename": "poland_warszawa_2017_rejon-f.pb"
+            },
+            {
+                "num_voters": 654,
+                "num_projects": 16,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon E",
+                "filename": "poland_warszawa_2017_rejon-e.pb"
+            },
+            {
+                "num_voters": 4480,
+                "num_projects": 38,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon D",
+                "filename": "poland_warszawa_2017_rejon-d.pb"
+            },
+            {
+                "num_voters": 3371,
+                "num_projects": 40,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon C",
+                "filename": "poland_warszawa_2017_rejon-c.pb"
+            },
+            {
+                "num_voters": 4377,
+                "num_projects": 53,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon B",
+                "filename": "poland_warszawa_2017_rejon-b.pb"
+            },
+            {
+                "num_voters": 2064,
+                "num_projects": 27,
+                "description": "Local PB in Warszawa, Mokot\u00f3w | rejon A",
+                "filename": "poland_warszawa_2017_rejon-a.pb"
+            },
+            {
+                "num_voters": 1012,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Ochota | Rakowiec",
+                "filename": "poland_warszawa_2017_rakowiec.pb"
+            },
+            {
+                "num_voters": 258,
+                "num_projects": 6,
+                "description": "Local PB in Warszawa, Wawer | Rado\u015b\u0107",
+                "filename": "poland_warszawa_2017_radosc.pb"
+            },
+            {
+                "num_voters": 228,
+                "num_projects": 2,
+                "description": "Local PB in Warszawa, Bielany | Radiowo,W\u00f3lka W\u0119glowa,Plac\u00f3wka,Huta",
+                "filename": "poland_warszawa_2017_radiowo-wolka-weglowa-placowka-huta.pb"
+            },
+            {
+                "num_voters": 176,
+                "num_projects": 4,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Przycz\u00f3\u0142ek Grochowski",
+                "filename": "poland_warszawa_2017_przyczolek-grochowski.pb"
+            },
+            {
+                "num_voters": 7565,
+                "num_projects": 43,
+                "description": "District PB in Warszawa, Praga-Po\u0142udnie",
+                "filename": "poland_warszawa_2017_praga-poludnie.pb"
+            },
+            {
+                "num_voters": 1978,
+                "num_projects": 33,
+                "description": "District PB in Warszawa, Praga-P\u00f3\u0142noc",
+                "filename": "poland_warszawa_2017_praga-polnoc.pb"
+            },
+            {
+                "num_voters": 577,
+                "num_projects": 7,
+                "description": "Local PB in Warszawa, Bielany | Piaski",
+                "filename": "poland_warszawa_2017_piaski.pb"
+            },
+            {
+                "num_voters": 3112,
+                "num_projects": 28,
+                "description": "District PB in Warszawa, Ochota",
+                "filename": "poland_warszawa_2017_ochota.pb"
+            },
+            {
+                "num_voters": 2850,
+                "num_projects": 30,
+                "description": "Local PB in Warszawa, Wola | Nowolipki + Pow\u0105zki",
+                "filename": "poland_warszawa_2017_nowolipki-powazki.pb"
+            },
+            {
+                "num_voters": 923,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, W\u0142ochy | Nowe W\u0142ochy",
+                "filename": "poland_warszawa_2017_nowe-wlochy.pb"
+            },
+            {
+                "num_voters": 1105,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Praga-P\u00f3\u0142noc | Nowa Praga z Pelcowizn\u0105",
+                "filename": "poland_warszawa_2017_nowa-praga-z-pelcowizna.pb"
+            },
+            {
+                "num_voters": 440,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, W\u0142ochy | Niskie Ok\u0119cie",
+                "filename": "poland_warszawa_2017_niskie-okecie.pb"
+            },
+            {
+                "num_voters": 108,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wawer | Nadwi\u015ble",
+                "filename": "poland_warszawa_2017_nadwisle.pb"
+            },
+            {
+                "num_voters": 1438,
+                "num_projects": 24,
+                "description": "Local PB in Warszawa, Wola | M\u0142yn\u00f3w",
+                "filename": "poland_warszawa_2017_mlynow.pb"
+            },
+            {
+                "num_voters": 465,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Wawer | Mi\u0119dzylesie",
+                "filename": "poland_warszawa_2017_miedzylesie.pb"
+            },
+            {
+                "num_voters": 545,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Wawer | Miedzeszyn",
+                "filename": "poland_warszawa_2017_miedzeszyn.pb"
+            },
+            {
+                "num_voters": 265,
+                "num_projects": 2,
+                "description": "Local PB in Warszawa, Wawer | Marysin Po\u0142udniowy",
+                "filename": "poland_warszawa_2017_marysin-poludniowy.pb"
+            },
+            {
+                "num_voters": 397,
+                "num_projects": 8,
+                "description": "Local PB in Warszawa, Wawer | Marysin P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2017_marysin-polnocny.pb"
+            },
+            {
+                "num_voters": 587,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, \u017boliborz | Marymont-Potok-\u017boliborz Dziennikarski",
+                "filename": "poland_warszawa_2017_marymont-potok-zoliborz-dziennikarski.pb"
+            },
+            {
+                "num_voters": 1386,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, Bemowo | Lotnisko,Bemowo \u2013 Lotnisko,Fort Bema",
+                "filename": "poland_warszawa_2017_lotnisko-bemowo-lotnisko-fort-bema.pb"
+            },
+            {
+                "num_voters": 135,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wawer | Las",
+                "filename": "poland_warszawa_2017_las.pb"
+            },
+            {
+                "num_voters": 1006,
+                "num_projects": 25,
+                "description": "Local PB in Warszawa, Wola | Ko\u0142o",
+                "filename": "poland_warszawa_2017_kolo.pb"
+            },
+            {
+                "num_voters": 2333,
+                "num_projects": 41,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Kobia\u0142ka,August\u00f3w Brzeziny,Grodzisk,Lewand\u00f3w Annopol,\u017bera\u0144",
+                "filename": "poland_warszawa_2017_kobialka-augustow-brzeziny-grodzisk-lewandow-annopol-zeran.pb"
+            },
+            {
+                "num_voters": 927,
+                "num_projects": 9,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Kamionek",
+                "filename": "poland_warszawa_2017_kamionek.pb"
+            },
+            {
+                "num_voters": 1684,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Po\u0142udniowy",
+                "filename": "poland_warszawa_2017_grochow-poludniowy.pb"
+            },
+            {
+                "num_voters": 1375,
+                "num_projects": 14,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w P\u00f3\u0142nocny",
+                "filename": "poland_warszawa_2017_grochow-polnocny.pb"
+            },
+            {
+                "num_voters": 713,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Kinowa",
+                "filename": "poland_warszawa_2017_grochow-kinowa.pb"
+            },
+            {
+                "num_voters": 826,
+                "num_projects": 15,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Groch\u00f3w Centrum",
+                "filename": "poland_warszawa_2017_grochow-centrum.pb"
+            },
+            {
+                "num_voters": 2093,
+                "num_projects": 18,
+                "description": "Local PB in Warszawa, Praga-Po\u0142udnie | Goc\u0142aw",
+                "filename": "poland_warszawa_2017_goclaw.pb"
+            },
+            {
+                "num_voters": 494,
+                "num_projects": 13,
+                "description": "Local PB in Warszawa, Wawer | Falenica",
+                "filename": "poland_warszawa_2017_falenica.pb"
+            },
+            {
+                "num_voters": 1326,
+                "num_projects": 21,
+                "description": "Local PB in Warszawa, Wola | Czyste + Mir\u00f3w",
+                "filename": "poland_warszawa_2017_czyste-mirow.pb"
+            },
+            {
+                "num_voters": 2215,
+                "num_projects": 16,
+                "description": "Local PB in Warszawa, Bemowo | Chrzan\u00f3w,Jelonki P\u00f3\u0142nocne,Jelonki Po\u0142udniowe",
+                "filename": "poland_warszawa_2017_chrzanow-jelonki-polnocne-jelonki-poludniowe.pb"
+            },
+            {
+                "num_voters": 1572,
+                "num_projects": 29,
+                "description": "Local PB in Warszawa, Bia\u0142o\u0142\u0119ka | Choszcz\u00f3wka,D\u0105br\u00f3wka Szlachecka,Bia\u0142o\u0142\u0119ka Dworska,Henryk\u00f3w,Szamocin",
+                "filename": "poland_warszawa_2017_choszczowka-dabrowka-szlachecka-bialoleka-dworska-henrykow-szamocin.pb"
+            },
+            {
+                "num_voters": 723,
+                "num_projects": 11,
+                "description": "Local PB in Warszawa, Bielany | Chomicz\u00f3wka",
+                "filename": "poland_warszawa_2017_chomiczowka.pb"
+            },
+            {
+                "num_voters": 580,
+                "num_projects": 19,
+                "description": "Local PB in Warszawa, Weso\u0142a | Centrum,Wola Grzybowska,Grosz\u00f3wka",
+                "filename": "poland_warszawa_2017_centrum-wola-grzybowska-groszowka.pb"
+            },
+            {
+                "num_voters": 3507,
+                "num_projects": 44,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Br\u00f3dno",
+                "filename": "poland_warszawa_2017_brodno.pb"
+            },
+            {
+                "num_voters": 793,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Targ\u00f3wek | Br\u00f3dno-Podgrodzie",
+                "filename": "poland_warszawa_2017_brodno-podgrodzie.pb"
+            },
+            {
+                "num_voters": 7477,
+                "num_projects": 44,
+                "description": "District PB in Warszawa, Bielany",
+                "filename": "poland_warszawa_2017_bielany.pb"
+            },
+            {
+                "num_voters": 4197,
+                "num_projects": 33,
+                "description": "District PB in Warszawa, Bemowo",
+                "filename": "poland_warszawa_2017_bemowo.pb"
+            },
+            {
+                "num_voters": 510,
+                "num_projects": 17,
+                "description": "Local PB in Warszawa, Wawer | Anin",
+                "filename": "poland_warszawa_2017_anin.pb"
+            },
+            {
+                "num_voters": 422,
+                "num_projects": 5,
+                "description": "Local PB in Warszawa, Wawer | Aleksandr\u00f3w",
+                "filename": "poland_warszawa_2017_aleksandrow.pb"
+            }
+        ],
+        "\u015awiecie": [
+            {
+                "num_voters": 2553,
+                "num_projects": 22,
+                "description": "Municipal PB in \u015awiecie",
+                "filename": "poland_swiecie_2023_.pb"
+            }
+        ],
+        "Pozna\u0144": [
+            {
+                "num_voters": 6119,
+                "num_projects": 7,
+                "description": "District PB in Pozna\u0144, 9 - Stare Miasto",
+                "filename": "poland_poznan_2023_9-stare-miasto.pb"
+            },
+            {
+                "num_voters": 16243,
+                "num_projects": 6,
+                "description": "District PB in Pozna\u0144, 8 - Chartowo, Rataje, \u017begrze",
+                "filename": "poland_poznan_2023_8-chartowo-rataje-zegrze.pb"
+            },
+            {
+                "num_voters": 9527,
+                "num_projects": 6,
+                "description": "District PB in Pozna\u0144, 7- Morasko-Radojewo, Naramowice, Umultowo",
+                "filename": "poland_poznan_2023_7-morasko-radojewo-naramowice-umultowo.pb"
+            },
+            {
+                "num_voters": 11337,
+                "num_projects": 6,
+                "description": "District PB in Pozna\u0144, 6 - Ogrody, So\u0142acz, Winiary, Wola",
+                "filename": "poland_poznan_2023_6-ogrody-solacz-winiary-wola.pb"
+            },
+            {
+                "num_voters": 19257,
+                "num_projects": 7,
+                "description": "District PB in Pozna\u0144, 5 - Grunwald P\u00f3\u0142noc, Grunwald Po\u0142udnie, Stary Grunwald",
+                "filename": "poland_poznan_2023_5-grunwald-polnoc-grunwald-poludnie-stary-grunwald.pb"
+            },
+            {
+                "num_voters": 12546,
+                "num_projects": 8,
+                "description": "District PB in Pozna\u0144, 4 - G\u0142uszyna, Krzesiny-Pokrzywno-Garaszewo, Staro\u0142\u0119ka-Minikowo, Szczepankowo-Sp\u0142awie-Krzesinki",
+                "filename": "poland_poznan_2023_4-gluszyna-krzesiny-pokrzywno-garaszewo-staroleka-minikowo-szczepankowo-splawie-krzesinki.pb"
+            },
+            {
+                "num_voters": 10007,
+                "num_projects": 6,
+                "description": "District PB in Pozna\u0144, 3 - Pi\u0105tkowo P\u00f3\u0142noc, Pi\u0105tkowo",
+                "filename": "poland_poznan_2023_3-piatkowo-polnoc-piatkowo.pb"
+            },
+            {
+                "num_voters": 9552,
+                "num_projects": 9,
+                "description": "District PB in Pozna\u0144, 2 - Kiekrz, Krzy\u017cowniki-Smochowice, Podolany, Strzeszyn",
+                "filename": "poland_poznan_2023_2-kiekrz-krzyzowniki-smochowice-podolany-strzeszyn.pb"
+            },
+            {
+                "num_voters": 11402,
+                "num_projects": 14,
+                "description": "District PB in Pozna\u0144, 13 - Je\u017cyce, \u015bw.\u0141azarz",
+                "filename": "poland_poznan_2023_13-jezyce-sw-lazarz.pb"
+            },
+            {
+                "num_voters": 11332,
+                "num_projects": 12,
+                "description": "District PB in Pozna\u0144, 12 - Antoninek-Zieliniec-Kobylepole, G\u0142\u00f3wna, Ostr\u00f3w Tumski- \u015ar\u00f3dka-Zawady-Komandoria, Warszawskie-Pomet-Malta\u0144skie",
+                "filename": "poland_poznan_2023_12-antoninek-zieliniec-kobylepole-glowna-ostrow-tumski-srodka-zawady-komandoria-warszawskie-pomet-maltanskie.pb"
+            },
+            {
+                "num_voters": 10857,
+                "num_projects": 6,
+                "description": "District PB in Pozna\u0144, 11 - Fabianowo-Kotowo, G\u00f3rczyn, Junikowo, Kwiatowe, \u0141awica",
+                "filename": "poland_poznan_2023_11-fabianowo-kotowo-gorczyn-junikowo-kwiatowe-lawica.pb"
+            },
+            {
+                "num_voters": 10923,
+                "num_projects": 8,
+                "description": "District PB in Pozna\u0144, 10 - \u015awierczewo, Wilda, Zielony D\u0119biec",
+                "filename": "poland_poznan_2023_10-swierczewo-wilda-zielony-debiec.pb"
+            },
+            {
+                "num_voters": 18384,
+                "num_projects": 11,
+                "description": "District PB in Pozna\u0144, 1 - Nowe Winogrady P\u00f3\u0142noc, Nowe Winogrady Po\u0142udnie, Nowe Winogrady Wsch\u00f3d, Stare Winogrady",
+                "filename": "poland_poznan_2023_1-nowe-winogrady-polnoc-nowe-winogrady-poludnie-nowe-winogrady-wschod-stare-winogrady.pb"
+            }
+        ],
+        "\u0141\u00f3d\u017a": [
+            {
+                "num_voters": 1943,
+                "num_projects": 19,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Z\u0142otno",
+                "filename": "poland_lodz_2023_zlotno.pb"
+            },
+            {
+                "num_voters": 1144,
+                "num_projects": 11,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Zdrowie-Mania",
+                "filename": "poland_lodz_2023_zdrowie-mania.pb"
+            },
+            {
+                "num_voters": 2268,
+                "num_projects": 16,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Zarzew",
+                "filename": "poland_lodz_2023_zarzew.pb"
+            },
+            {
+                "num_voters": 362,
+                "num_projects": 3,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Wzniesie\u0144 \u0141\u00f3dzkich",
+                "filename": "poland_lodz_2023_wzniesien-lodzkich.pb"
+            },
+            {
+                "num_voters": 1907,
+                "num_projects": 10,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Wiskitno",
+                "filename": "poland_lodz_2023_wiskitno.pb"
+            },
+            {
+                "num_voters": 4639,
+                "num_projects": 22,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Widzew-Wsch\u00f3d",
+                "filename": "poland_lodz_2023_widzew-wschod.pb"
+            },
+            {
+                "num_voters": 6180,
+                "num_projects": 35,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Teofil\u00f3w-Wielkopolska",
+                "filename": "poland_lodz_2023_teofilow-wielkopolska.pb"
+            },
+            {
+                "num_voters": 2585,
+                "num_projects": 35,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Stoki-Sikawa-Podg\u00f3rze",
+                "filename": "poland_lodz_2023_stoki-sikawa-podgorze.pb"
+            },
+            {
+                "num_voters": 3238,
+                "num_projects": 34,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Stary Widzew",
+                "filename": "poland_lodz_2023_stary-widzew.pb"
+            },
+            {
+                "num_voters": 2830,
+                "num_projects": 28,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Stare Polesie",
+                "filename": "poland_lodz_2023_stare-polesie.pb"
+            },
+            {
+                "num_voters": 2823,
+                "num_projects": 26,
+                "description": "Local PB in \u0141\u00f3d\u017a, \u015aR\u00d3DMIE\u015aCIE | \u015ar\u00f3dmie\u015bcie-Wsch\u00f3d",
+                "filename": "poland_lodz_2023_srodmiescie-wschod.pb"
+            },
+            {
+                "num_voters": 1896,
+                "num_projects": 11,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Ruda",
+                "filename": "poland_lodz_2023_ruda.pb"
+            },
+            {
+                "num_voters": 2270,
+                "num_projects": 16,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Rokicie",
+                "filename": "poland_lodz_2023_rokicie.pb"
+            },
+            {
+                "num_voters": 3424,
+                "num_projects": 14,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Retkinia Zach\u00f3d-Smulsko",
+                "filename": "poland_lodz_2023_retkinia-zachod-smulsko.pb"
+            },
+            {
+                "num_voters": 3874,
+                "num_projects": 24,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Radogoszcz",
+                "filename": "poland_lodz_2023_radogoszcz.pb"
+            },
+            {
+                "num_voters": 1420,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Piast\u00f3w-Kurak",
+                "filename": "poland_lodz_2023_piastow-kurak.pb"
+            },
+            {
+                "num_voters": 3484,
+                "num_projects": 14,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Olech\u00f3w-Jan\u00f3w",
+                "filename": "poland_lodz_2023_olechow-janow.pb"
+            },
+            {
+                "num_voters": 978,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Nr 33",
+                "filename": "poland_lodz_2023_nr-33.pb"
+            },
+            {
+                "num_voters": 1557,
+                "num_projects": 11,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Nowosolna",
+                "filename": "poland_lodz_2023_nowosolna.pb"
+            },
+            {
+                "num_voters": 409,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Nad Nerem",
+                "filename": "poland_lodz_2023_nad-nerem.pb"
+            },
+            {
+                "num_voters": 1281,
+                "num_projects": 8,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Mileszki",
+                "filename": "poland_lodz_2023_mileszki.pb"
+            },
+            {
+                "num_voters": 2607,
+                "num_projects": 21,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Lublinek-Pienista",
+                "filename": "poland_lodz_2023_lublinek-pienista.pb"
+            },
+            {
+                "num_voters": 1250,
+                "num_projects": 12,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | \u0141agiewniki",
+                "filename": "poland_lodz_2023_lagiewniki.pb"
+            },
+            {
+                "num_voters": 1423,
+                "num_projects": 18,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Koziny",
+                "filename": "poland_lodz_2023_koziny.pb"
+            },
+            {
+                "num_voters": 2442,
+                "num_projects": 34,
+                "description": "Local PB in \u0141\u00f3d\u017a, \u015aR\u00d3DMIE\u015aCIE | Katedralna",
+                "filename": "poland_lodz_2023_katedralna.pb"
+            },
+            {
+                "num_voters": 4802,
+                "num_projects": 25,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Karolew-Retkinia Wsch\u00f3d",
+                "filename": "poland_lodz_2023_karolew-retkinia-wschod.pb"
+            },
+            {
+                "num_voters": 2634,
+                "num_projects": 15,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Julian\u00f3w-Marysin-Rogi",
+                "filename": "poland_lodz_2023_julianow-marysin-rogi.pb"
+            },
+            {
+                "num_voters": 458,
+                "num_projects": 8,
+                "description": "Local PB in \u0141\u00f3d\u017a, POLESIE | Im. J\u00f3zefa Montwi\u0142\u0142a-Mireckiego",
+                "filename": "poland_lodz_2023_im-jozefa-montwilla-mireckiego.pb"
+            },
+            {
+                "num_voters": 1275,
+                "num_projects": 6,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | G\u00f3rniak",
+                "filename": "poland_lodz_2023_gorniak.pb"
+            },
+            {
+                "num_voters": 1678,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Dolina \u0141\u00f3dki",
+                "filename": "poland_lodz_2023_dolina-lodki.pb"
+            },
+            {
+                "num_voters": 3623,
+                "num_projects": 29,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Chojny",
+                "filename": "poland_lodz_2023_chojny.pb"
+            },
+            {
+                "num_voters": 5368,
+                "num_projects": 33,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00d3RNA | Chojny-D\u0105browa",
+                "filename": "poland_lodz_2023_chojny-dabrowa.pb"
+            },
+            {
+                "num_voters": 3253,
+                "num_projects": 8,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Ba\u0142uty Zachodnie",
+                "filename": "poland_lodz_2023_baluty-zachodnie.pb"
+            },
+            {
+                "num_voters": 4202,
+                "num_projects": 28,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Ba\u0142uty-Do\u0142y",
+                "filename": "poland_lodz_2023_baluty-doly.pb"
+            },
+            {
+                "num_voters": 5329,
+                "num_projects": 32,
+                "description": "Local PB in \u0141\u00f3d\u017a, BA\u0141UTY | Ba\u0142uty-Centrum",
+                "filename": "poland_lodz_2023_baluty-centrum.pb"
+            },
+            {
+                "num_voters": 939,
+                "num_projects": 10,
+                "description": "Local PB in \u0141\u00f3d\u017a, WIDZEW | Andrzej\u00f3w",
+                "filename": "poland_lodz_2023_andrzejow.pb"
+            },
+            {
+                "num_voters": 70747,
+                "num_projects": 139,
+                "description": "Municipal PB in \u0141\u00f3d\u017a",
+                "filename": "poland_lodz_2023_.pb"
+            },
+            {
+                "num_voters": 3452,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Z\u0142otno",
+                "filename": "poland_lodz_2022_zlotno.pb"
+            },
+            {
+                "num_voters": 460,
+                "num_projects": 14,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Zdrowie-Mania",
+                "filename": "poland_lodz_2022_zdrowie-mania.pb"
+            },
+            {
+                "num_voters": 2507,
+                "num_projects": 12,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Zarzew",
+                "filename": "poland_lodz_2022_zarzew.pb"
+            },
+            {
+                "num_voters": 784,
+                "num_projects": 3,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Wzniesie\u0144 \u0141\u00f3dzkich",
+                "filename": "poland_lodz_2022_wzniesien-lodzkich.pb"
+            },
+            {
+                "num_voters": 3300,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Widzew-Wsch\u00f3d",
+                "filename": "poland_lodz_2022_widzew-wschod.pb"
+            },
+            {
+                "num_voters": 16771,
+                "num_projects": 24,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Teofil\u00f3w-Wielkopolska",
+                "filename": "poland_lodz_2022_teofilow-wielkopolska.pb"
+            },
+            {
+                "num_voters": 1680,
+                "num_projects": 23,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Stoki-Sikawa-Podg\u00f3rze",
+                "filename": "poland_lodz_2022_stoki-sikawa-podgorze.pb"
+            },
+            {
+                "num_voters": 2503,
+                "num_projects": 29,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Stary Widzew",
+                "filename": "poland_lodz_2022_stary-widzew.pb"
+            },
+            {
+                "num_voters": 3003,
+                "num_projects": 20,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Stare Polesie",
+                "filename": "poland_lodz_2022_stare-polesie.pb"
+            },
+            {
+                "num_voters": 2331,
+                "num_projects": 17,
+                "description": "Local PB in \u0141\u00f3d\u017a, \u015ar\u00f3dmie\u015bcie | \u015ar\u00f3dmie\u015bcie-Wsch\u00f3d",
+                "filename": "poland_lodz_2022_srodmiescie-wschod.pb"
+            },
+            {
+                "num_voters": 1954,
+                "num_projects": 15,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Ruda",
+                "filename": "poland_lodz_2022_ruda.pb"
+            },
+            {
+                "num_voters": 1962,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Rokicie",
+                "filename": "poland_lodz_2022_rokicie.pb"
+            },
+            {
+                "num_voters": 2466,
+                "num_projects": 15,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Retkinia Zach\u00f3d-Smulsko",
+                "filename": "poland_lodz_2022_retkinia-zachod-smulsko.pb"
+            },
+            {
+                "num_voters": 3752,
+                "num_projects": 20,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Radogoszcz",
+                "filename": "poland_lodz_2022_radogoszcz.pb"
+            },
+            {
+                "num_voters": 2936,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Piast\u00f3w-Kurak",
+                "filename": "poland_lodz_2022_piastow-kurak.pb"
+            },
+            {
+                "num_voters": 2843,
+                "num_projects": 12,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Olech\u00f3w-Jan\u00f3w",
+                "filename": "poland_lodz_2022_olechow-janow.pb"
+            },
+            {
+                "num_voters": 579,
+                "num_projects": 6,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Nr 33",
+                "filename": "poland_lodz_2022_nr-33.pb"
+            },
+            {
+                "num_voters": 652,
+                "num_projects": 5,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Nowosolna",
+                "filename": "poland_lodz_2022_nowosolna.pb"
+            },
+            {
+                "num_voters": 315,
+                "num_projects": 8,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Nad Nerem",
+                "filename": "poland_lodz_2022_nad-nerem.pb"
+            },
+            {
+                "num_voters": 619,
+                "num_projects": 4,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Mileszki",
+                "filename": "poland_lodz_2022_mileszki.pb"
+            },
+            {
+                "num_voters": 1557,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Lublinek-Pienista",
+                "filename": "poland_lodz_2022_lublinek-pienista.pb"
+            },
+            {
+                "num_voters": 981,
+                "num_projects": 7,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | \u0141agiewniki",
+                "filename": "poland_lodz_2022_lagiewniki.pb"
+            },
+            {
+                "num_voters": 1824,
+                "num_projects": 21,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Koziny",
+                "filename": "poland_lodz_2022_koziny.pb"
+            },
+            {
+                "num_voters": 1920,
+                "num_projects": 15,
+                "description": "Local PB in \u0141\u00f3d\u017a, \u015ar\u00f3dmie\u015bcie | Katedralna",
+                "filename": "poland_lodz_2022_katedralna.pb"
+            },
+            {
+                "num_voters": 4461,
+                "num_projects": 37,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Karolew-Retkinia Wsch\u00f3d",
+                "filename": "poland_lodz_2022_karolew-retkinia-wschod.pb"
+            },
+            {
+                "num_voters": 3091,
+                "num_projects": 14,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Julian\u00f3w-Marysin-Rogi",
+                "filename": "poland_lodz_2022_julianow-marysin-rogi.pb"
+            },
+            {
+                "num_voters": 652,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Im. J\u00f3zefa Montwi\u0142\u0142a-Mireckiego",
+                "filename": "poland_lodz_2022_im-jozefa-montwilla-mireckiego.pb"
+            },
+            {
+                "num_voters": 1402,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | G\u00f3rniak",
+                "filename": "poland_lodz_2022_gorniak.pb"
+            },
+            {
+                "num_voters": 1622,
+                "num_projects": 22,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Dolina \u0141\u00f3dki",
+                "filename": "poland_lodz_2022_dolina-lodki.pb"
+            },
+            {
+                "num_voters": 3276,
+                "num_projects": 19,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Chojny",
+                "filename": "poland_lodz_2022_chojny.pb"
+            },
+            {
+                "num_voters": 4542,
+                "num_projects": 25,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Chojny-D\u0105browa",
+                "filename": "poland_lodz_2022_chojny-dabrowa.pb"
+            },
+            {
+                "num_voters": 14465,
+                "num_projects": 11,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Ba\u0142uty Zachodnie",
+                "filename": "poland_lodz_2022_baluty-zachodnie.pb"
+            },
+            {
+                "num_voters": 3988,
+                "num_projects": 26,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Ba\u0142uty-Do\u0142y",
+                "filename": "poland_lodz_2022_baluty-doly.pb"
+            },
+            {
+                "num_voters": 3778,
+                "num_projects": 19,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Ba\u0142uty-Centrum",
+                "filename": "poland_lodz_2022_baluty-centrum.pb"
+            },
+            {
+                "num_voters": 1044,
+                "num_projects": 7,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Andrzej\u00f3w",
+                "filename": "poland_lodz_2022_andrzejow.pb"
+            },
+            {
+                "num_voters": 90494,
+                "num_projects": 160,
+                "description": "Municipal PB in \u0141\u00f3d\u017a",
+                "filename": "poland_lodz_2022_.pb"
+            },
+            {
+                "num_voters": 3600,
+                "num_projects": 17,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Z\u0142otno",
+                "filename": "poland_lodz_2020_zlotno.pb"
+            },
+            {
+                "num_voters": 890,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Zdrowie-Mania",
+                "filename": "poland_lodz_2020_zdrowie-mania.pb"
+            },
+            {
+                "num_voters": 2666,
+                "num_projects": 14,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Zarzew",
+                "filename": "poland_lodz_2020_zarzew.pb"
+            },
+            {
+                "num_voters": 689,
+                "num_projects": 6,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Wzniesie\u0144 \u0141\u00f3dzkich",
+                "filename": "poland_lodz_2020_wzniesien-lodzkich.pb"
+            },
+            {
+                "num_voters": 4807,
+                "num_projects": 18,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Teofil\u00f3w-Wielkopolska",
+                "filename": "poland_lodz_2020_teofilow-wielkopolska.pb"
+            },
+            {
+                "num_voters": 2331,
+                "num_projects": 15,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Stoki-Sikawa-Podg\u00f3rze",
+                "filename": "poland_lodz_2020_stoki-sikawa-podgorze.pb"
+            },
+            {
+                "num_voters": 4262,
+                "num_projects": 23,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Stary Widzew",
+                "filename": "poland_lodz_2020_stary-widzew.pb"
+            },
+            {
+                "num_voters": 2847,
+                "num_projects": 12,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Stare Polesie",
+                "filename": "poland_lodz_2020_stare-polesie.pb"
+            },
+            {
+                "num_voters": 2167,
+                "num_projects": 16,
+                "description": "Local PB in \u0141\u00f3d\u017a, \u015ar\u00f3dmie\u015bcie | \u015ar\u00f3dmie\u015bcie Wsch\u00f3d",
+                "filename": "poland_lodz_2020_srodmiescie-wschod.pb"
+            },
+            {
+                "num_voters": 3093,
+                "num_projects": 16,
+                "description": "Local PB in \u0141\u00f3d\u017a, \u015ar\u00f3dmie\u015bcie | \u015ar\u00f3dmie\u015bcie Katedralna",
+                "filename": "poland_lodz_2020_srodmiescie-katedralna.pb"
+            },
+            {
+                "num_voters": 2322,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Ruda",
+                "filename": "poland_lodz_2020_ruda.pb"
+            },
+            {
+                "num_voters": 1960,
+                "num_projects": 11,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Rokicie",
+                "filename": "poland_lodz_2020_rokicie.pb"
+            },
+            {
+                "num_voters": 2650,
+                "num_projects": 13,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Retkinia Zach\u00f3d-Smulsko",
+                "filename": "poland_lodz_2020_retkinia-zachod-smulsko.pb"
+            },
+            {
+                "num_voters": 3610,
+                "num_projects": 17,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Radogoszcz",
+                "filename": "poland_lodz_2020_radogoszcz.pb"
+            },
+            {
+                "num_voters": 2079,
+                "num_projects": 8,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Piast\u00f3w-Kurak",
+                "filename": "poland_lodz_2020_piastow-kurak.pb"
+            },
+            {
+                "num_voters": 3313,
+                "num_projects": 12,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Olech\u00f3w-Jan\u00f3w",
+                "filename": "poland_lodz_2020_olechow-janow.pb"
+            },
+            {
+                "num_voters": 237,
+                "num_projects": 5,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Nr 33",
+                "filename": "poland_lodz_2020_nr-33.pb"
+            },
+            {
+                "num_voters": 1442,
+                "num_projects": 5,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Nowosolna",
+                "filename": "poland_lodz_2020_nowosolna.pb"
+            },
+            {
+                "num_voters": 608,
+                "num_projects": 8,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Nad Nerem",
+                "filename": "poland_lodz_2020_nad-nerem.pb"
+            },
+            {
+                "num_voters": 955,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Mileszki",
+                "filename": "poland_lodz_2020_mileszki.pb"
+            },
+            {
+                "num_voters": 1717,
+                "num_projects": 10,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Lublinek-Pienista",
+                "filename": "poland_lodz_2020_lublinek-pienista.pb"
+            },
+            {
+                "num_voters": 435,
+                "num_projects": 5,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | \u0141agiewniki",
+                "filename": "poland_lodz_2020_lagiewniki.pb"
+            },
+            {
+                "num_voters": 1270,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Koziny",
+                "filename": "poland_lodz_2020_koziny.pb"
+            },
+            {
+                "num_voters": 3843,
+                "num_projects": 26,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Karolew-Retkinia Wsch\u00f3d",
+                "filename": "poland_lodz_2020_karolew-retkinia-wschod.pb"
+            },
+            {
+                "num_voters": 2255,
+                "num_projects": 15,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Julian\u00f3w-Marysin-Rogi",
+                "filename": "poland_lodz_2020_julianow-marysin-rogi.pb"
+            },
+            {
+                "num_voters": 594,
+                "num_projects": 16,
+                "description": "Local PB in \u0141\u00f3d\u017a, Polesie | Im. Montwi\u0142\u0142a-Mireckiego",
+                "filename": "poland_lodz_2020_im-montwilla-mireckiego.pb"
+            },
+            {
+                "num_voters": 759,
+                "num_projects": 5,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | G\u00f3rniak",
+                "filename": "poland_lodz_2020_gorniak.pb"
+            },
+            {
+                "num_voters": 5376,
+                "num_projects": 14,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Chojny",
+                "filename": "poland_lodz_2020_chojny.pb"
+            },
+            {
+                "num_voters": 5220,
+                "num_projects": 21,
+                "description": "Local PB in \u0141\u00f3d\u017a, G\u00f3rna | Chojny-D\u0105browa",
+                "filename": "poland_lodz_2020_chojny-dabrowa.pb"
+            },
+            {
+                "num_voters": 2227,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Ba\u0142uty Zachodnie",
+                "filename": "poland_lodz_2020_baluty-zachodnie.pb"
+            },
+            {
+                "num_voters": 3031,
+                "num_projects": 25,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Ba\u0142uty Do\u0142y",
+                "filename": "poland_lodz_2020_baluty-doly.pb"
+            },
+            {
+                "num_voters": 2967,
+                "num_projects": 20,
+                "description": "Local PB in \u0141\u00f3d\u017a, Ba\u0142uty | Ba\u0142uty Centrum",
+                "filename": "poland_lodz_2020_baluty-centrum.pb"
+            },
+            {
+                "num_voters": 1036,
+                "num_projects": 9,
+                "description": "Local PB in \u0141\u00f3d\u017a, Widzew | Andrzej\u00f3w",
+                "filename": "poland_lodz_2020_andrzejow.pb"
+            },
+            {
+                "num_voters": 51472,
+                "num_projects": 151,
+                "description": "Municipal PB in \u0141\u00f3d\u017a",
+                "filename": "poland_lodz_2020_.pb"
+            }
+        ],
+        "Gdynia": [
+            {
+                "num_voters": 1300,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Wzg\u00f3rze \u015aw. Maksymiliana | small",
+                "filename": "poland_gdynia_2020_wzgorze-sw-maksymiliana-small.pb"
+            },
+            {
+                "num_voters": 1277,
+                "num_projects": 8,
+                "description": "Local PB in Gdynia, Wzg\u00f3rze \u015aw. Maksymiliana | large",
+                "filename": "poland_gdynia_2020_wzgorze-sw-maksymiliana-large.pb"
+            },
+            {
+                "num_voters": 966,
+                "num_projects": 3,
+                "description": "Local PB in Gdynia, Witomino | large",
+                "filename": "poland_gdynia_2020_witomino-large.pb"
+            },
+            {
+                "num_voters": 1228,
+                "num_projects": 6,
+                "description": "Local PB in Gdynia, Wielki Kack | small",
+                "filename": "poland_gdynia_2020_wielki-kack-small.pb"
+            },
+            {
+                "num_voters": 940,
+                "num_projects": 9,
+                "description": "Local PB in Gdynia, \u015ar\u00f3dmie\u015bcie | small",
+                "filename": "poland_gdynia_2020_srodmiescie-small.pb"
+            },
+            {
+                "num_voters": 1020,
+                "num_projects": 3,
+                "description": "Local PB in Gdynia, \u015ar\u00f3dmie\u015bcie | large",
+                "filename": "poland_gdynia_2020_srodmiescie-large.pb"
+            },
+            {
+                "num_voters": 2122,
+                "num_projects": 8,
+                "description": "Local PB in Gdynia, Red\u0142owo | small",
+                "filename": "poland_gdynia_2020_redlowo-small.pb"
+            },
+            {
+                "num_voters": 2316,
+                "num_projects": 13,
+                "description": "Local PB in Gdynia, Red\u0142owo | large",
+                "filename": "poland_gdynia_2020_redlowo-large.pb"
+            },
+            {
+                "num_voters": 1046,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Pustki Cisowskie-Demptowo | small",
+                "filename": "poland_gdynia_2020_pustki-cisowskie-demptowo-small.pb"
+            },
+            {
+                "num_voters": 1056,
+                "num_projects": 4,
+                "description": "Local PB in Gdynia, Pustki Cisowskie-Demptowo | large",
+                "filename": "poland_gdynia_2020_pustki-cisowskie-demptowo-large.pb"
+            },
+            {
+                "num_voters": 849,
+                "num_projects": 8,
+                "description": "Local PB in Gdynia, Pog\u00f3rze | small",
+                "filename": "poland_gdynia_2020_pogorze-small.pb"
+            },
+            {
+                "num_voters": 1197,
+                "num_projects": 4,
+                "description": "Local PB in Gdynia, Pog\u00f3rze | large",
+                "filename": "poland_gdynia_2020_pogorze-large.pb"
+            },
+            {
+                "num_voters": 399,
+                "num_projects": 8,
+                "description": "Local PB in Gdynia, Or\u0142owo | small",
+                "filename": "poland_gdynia_2020_orlowo-small.pb"
+            },
+            {
+                "num_voters": 368,
+                "num_projects": 2,
+                "description": "Local PB in Gdynia, Or\u0142owo | large",
+                "filename": "poland_gdynia_2020_orlowo-large.pb"
+            },
+            {
+                "num_voters": 789,
+                "num_projects": 6,
+                "description": "Local PB in Gdynia, Oksywie | small",
+                "filename": "poland_gdynia_2020_oksywie-small.pb"
+            },
+            {
+                "num_voters": 819,
+                "num_projects": 2,
+                "description": "Local PB in Gdynia, Oksywie | large",
+                "filename": "poland_gdynia_2020_oksywie-large.pb"
+            },
+            {
+                "num_voters": 1973,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Ob\u0142u\u017ce | large",
+                "filename": "poland_gdynia_2020_obluze-large.pb"
+            },
+            {
+                "num_voters": 2881,
+                "num_projects": 10,
+                "description": "Local PB in Gdynia, Ma\u0142y Kack | small",
+                "filename": "poland_gdynia_2020_maly-kack-small.pb"
+            },
+            {
+                "num_voters": 3050,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Ma\u0142y Kack | large",
+                "filename": "poland_gdynia_2020_maly-kack-large.pb"
+            },
+            {
+                "num_voters": 675,
+                "num_projects": 9,
+                "description": "Local PB in Gdynia, Leszczynki | small",
+                "filename": "poland_gdynia_2020_leszczynki-small.pb"
+            },
+            {
+                "num_voters": 727,
+                "num_projects": 5,
+                "description": "Local PB in Gdynia, Leszczynki | large",
+                "filename": "poland_gdynia_2020_leszczynki-large.pb"
+            },
+            {
+                "num_voters": 1056,
+                "num_projects": 6,
+                "description": "Local PB in Gdynia, Karwiny | small",
+                "filename": "poland_gdynia_2020_karwiny-small.pb"
+            },
+            {
+                "num_voters": 1104,
+                "num_projects": 5,
+                "description": "Local PB in Gdynia, Karwiny | large",
+                "filename": "poland_gdynia_2020_karwiny-large.pb"
+            },
+            {
+                "num_voters": 429,
+                "num_projects": 3,
+                "description": "Local PB in Gdynia, Kamienna G\u00f3ra | small",
+                "filename": "poland_gdynia_2020_kamienna-gora-small.pb"
+            },
+            {
+                "num_voters": 477,
+                "num_projects": 3,
+                "description": "Local PB in Gdynia, Kamienna G\u00f3ra | large",
+                "filename": "poland_gdynia_2020_kamienna-gora-large.pb"
+            },
+            {
+                "num_voters": 1380,
+                "num_projects": 10,
+                "description": "Local PB in Gdynia, Grab\u00f3wek | small",
+                "filename": "poland_gdynia_2020_grabowek-small.pb"
+            },
+            {
+                "num_voters": 1511,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Grab\u00f3wek | large",
+                "filename": "poland_gdynia_2020_grabowek-large.pb"
+            },
+            {
+                "num_voters": 697,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Dzia\u0142ki Le\u015bne | small",
+                "filename": "poland_gdynia_2020_dzialki-lesne-small.pb"
+            },
+            {
+                "num_voters": 745,
+                "num_projects": 5,
+                "description": "Local PB in Gdynia, Dzia\u0142ki Le\u015bne | large",
+                "filename": "poland_gdynia_2020_dzialki-lesne-large.pb"
+            },
+            {
+                "num_voters": 2066,
+                "num_projects": 15,
+                "description": "Local PB in Gdynia, D\u0105browa | small",
+                "filename": "poland_gdynia_2020_dabrowa-small.pb"
+            },
+            {
+                "num_voters": 2100,
+                "num_projects": 11,
+                "description": "Local PB in Gdynia, D\u0105browa | large",
+                "filename": "poland_gdynia_2020_dabrowa-large.pb"
+            },
+            {
+                "num_voters": 671,
+                "num_projects": 3,
+                "description": "Local PB in Gdynia, Cisowa | large",
+                "filename": "poland_gdynia_2020_cisowa-large.pb"
+            },
+            {
+                "num_voters": 1218,
+                "num_projects": 10,
+                "description": "Local PB in Gdynia, Chylonia | small",
+                "filename": "poland_gdynia_2020_chylonia-small.pb"
+            },
+            {
+                "num_voters": 1231,
+                "num_projects": 7,
+                "description": "Local PB in Gdynia, Chylonia | large",
+                "filename": "poland_gdynia_2020_chylonia-large.pb"
+            },
+            {
+                "num_voters": 3815,
+                "num_projects": 12,
+                "description": "Local PB in Gdynia, Chwarzno-Wiczlino | small",
+                "filename": "poland_gdynia_2020_chwarzno-wiczlino-small.pb"
+            },
+            {
+                "num_voters": 306,
+                "num_projects": 5,
+                "description": "Local PB in Gdynia, Babie Do\u0142y | small",
+                "filename": "poland_gdynia_2020_babie-doly-small.pb"
+            },
+            {
+                "num_voters": 318,
+                "num_projects": 6,
+                "description": "Local PB in Gdynia, Babie Do\u0142y | large",
+                "filename": "poland_gdynia_2020_babie-doly-large.pb"
+            },
+            {
+                "num_voters": 27073,
+                "num_projects": 13,
+                "description": "Municipal PB in Gdynia",
+                "filename": "poland_gdynia_2020_.pb"
+            }
+        ]
+    },
+    "Netherlands": {
+        "Assen": [
+            {
+                "num_voters": 84,
+                "num_projects": 14,
+                "description": "Assen Top Idee",
+                "filename": "netherlands_assen_2024_.pb"
+            }
+        ],
+        "Amsterdam": [
+            {
+                "num_voters": 3190,
+                "num_projects": 19,
+                "description": "Buurtbudget De Aker Sloten Nieuw Sloten",
+                "filename": "netherlands_amsterdam_647_.pb"
+            },
+            {
+                "num_voters": 2323,
+                "num_projects": 23,
+                "description": "Buurtbudget Osdorp",
+                "filename": "netherlands_amsterdam_646_.pb"
+            },
+            {
+                "num_voters": 3908,
+                "num_projects": 38,
+                "description": "Buurtbudget Slotervaart",
+                "filename": "netherlands_amsterdam_645_.pb"
+            },
+            {
+                "num_voters": 2742,
+                "num_projects": 43,
+                "description": "Buurtbudget Geuzenveld Slotermeer",
+                "filename": "netherlands_amsterdam_644_.pb"
+            },
+            {
+                "num_voters": 11519,
+                "num_projects": 62,
+                "description": "West Begroot",
+                "filename": "netherlands_amsterdam_631_.pb"
+            },
+            {
+                "num_voters": 2472,
+                "num_projects": 35,
+                "description": "Buurtbudget Noord West",
+                "filename": "netherlands_amsterdam_628_.pb"
+            },
+            {
+                "num_voters": 2575,
+                "num_projects": 67,
+                "description": "Buurtbudget Oud Noord",
+                "filename": "netherlands_amsterdam_622_.pb"
+            },
+            {
+                "num_voters": 10081,
+                "num_projects": 60,
+                "description": "Centrum Begroot",
+                "filename": "netherlands_amsterdam_621_.pb"
+            },
+            {
+                "num_voters": 865,
+                "num_projects": 9,
+                "description": "Buurtbudget Buitenveldert Oost",
+                "filename": "netherlands_amsterdam_619_.pb"
+            },
+            {
+                "num_voters": 1961,
+                "num_projects": 41,
+                "description": "Buurtbudget Noord Oost",
+                "filename": "netherlands_amsterdam_613_.pb"
+            },
+            {
+                "num_voters": 2037,
+                "num_projects": 25,
+                "description": "Oost Begroot IJburg Zeeburgereiland",
+                "filename": "netherlands_amsterdam_605_.pb"
+            },
+            {
+                "num_voters": 2324,
+                "num_projects": 24,
+                "description": "Oost Begroot Oud Oost",
+                "filename": "netherlands_amsterdam_604_.pb"
+            },
+            {
+                "num_voters": 212,
+                "num_projects": 15,
+                "description": "Buurtbudget Rijnbuurt West",
+                "filename": "netherlands_amsterdam_588_.pb"
+            },
+            {
+                "num_voters": 3428,
+                "num_projects": 20,
+                "description": "Buurtbudget de Pijp, Rivierenbuurt",
+                "filename": "netherlands_amsterdam_525_.pb"
+            },
+            {
+                "num_voters": 3162,
+                "num_projects": 19,
+                "description": "Buurtbudget Oud-Zuid",
+                "filename": "netherlands_amsterdam_524_.pb"
+            },
+            {
+                "num_voters": 938,
+                "num_projects": 7,
+                "description": "Buurtbudget Buitenveldert, Zuidas",
+                "filename": "netherlands_amsterdam_523_.pb"
+            },
+            {
+                "num_voters": 318,
+                "num_projects": 15,
+                "description": "Buurtbudget Diamantbuurt",
+                "filename": "netherlands_amsterdam_522_.pb"
+            },
+            {
+                "num_voters": 3140,
+                "num_projects": 8,
+                "description": "Weesp Begroot",
+                "filename": "netherlands_amsterdam_515_.pb"
+            },
+            {
+                "num_voters": 12283,
+                "num_projects": 24,
+                "description": "West Begroot",
+                "filename": "netherlands_amsterdam_509_.pb"
+            },
+            {
+                "num_voters": 4528,
+                "num_projects": 29,
+                "description": "Buurtbudget Slotervaart",
+                "filename": "netherlands_amsterdam_492_.pb"
+            },
+            {
+                "num_voters": 3218,
+                "num_projects": 18,
+                "description": "Buurtbudget De Aker Sloten Nieuw Sloten",
+                "filename": "netherlands_amsterdam_491_.pb"
+            },
+            {
+                "num_voters": 2791,
+                "num_projects": 31,
+                "description": "Buurtbudget Osdorp",
+                "filename": "netherlands_amsterdam_490_.pb"
+            },
+            {
+                "num_voters": 3978,
+                "num_projects": 32,
+                "description": "Buurtbudget Geuzenveld Slotermeer Sloterdijken",
+                "filename": "netherlands_amsterdam_489_.pb"
+            },
+            {
+                "num_voters": 9562,
+                "num_projects": 39,
+                "description": "Centrum Begroot",
+                "filename": "netherlands_amsterdam_417_.pb"
+            },
+            {
+                "num_voters": 1182,
+                "num_projects": 29,
+                "description": "Buurtbudget Tuindorpen",
+                "filename": "netherlands_amsterdam_358_.pb"
+            },
+            {
+                "num_voters": 5448,
+                "num_projects": 34,
+                "description": "Oost Begroot Indischebuurt",
+                "filename": "netherlands_amsterdam_335_.pb"
+            },
+            {
+                "num_voters": 4984,
+                "num_projects": 56,
+                "description": "Oost Begroot Watergraafmeer",
+                "filename": "netherlands_amsterdam_332_.pb"
+            },
+            {
+                "num_voters": 4453,
+                "num_projects": 18,
+                "description": "Weesp Begroot",
+                "filename": "netherlands_amsterdam_324_.pb"
+            },
+            {
+                "num_voters": 14411,
+                "num_projects": 58,
+                "description": "West Begroot",
+                "filename": "netherlands_amsterdam_309_.pb"
+            },
+            {
+                "num_voters": 624,
+                "num_projects": 29,
+                "description": "Buurtbudget Terrasdorp",
+                "filename": "netherlands_amsterdam_304_.pb"
+            },
+            {
+                "num_voters": 7045,
+                "num_projects": 38,
+                "description": "Buurtbudget de Pijp, Rivierenbuurt",
+                "filename": "netherlands_amsterdam_289_.pb"
+            },
+            {
+                "num_voters": 3057,
+                "num_projects": 14,
+                "description": "Buurtbudget Buitenveldert, Zuidas",
+                "filename": "netherlands_amsterdam_288_.pb"
+            },
+            {
+                "num_voters": 6187,
+                "num_projects": 19,
+                "description": "Buurtbudget Oud-Zuid",
+                "filename": "netherlands_amsterdam_287_.pb"
+            },
+            {
+                "num_voters": 5510,
+                "num_projects": 97,
+                "description": "Buurtbudget Geuzenveld Slotermeer",
+                "filename": "netherlands_amsterdam_285_.pb"
+            },
+            {
+                "num_voters": 3184,
+                "num_projects": 53,
+                "description": "Oost Begroot IJburg Zeeburgereiland",
+                "filename": "netherlands_amsterdam_267_.pb"
+            },
+            {
+                "num_voters": 8520,
+                "num_projects": 85,
+                "description": "Centrum Begroot",
+                "filename": "netherlands_amsterdam_252_.pb"
+            },
+            {
+                "num_voters": 3834,
+                "num_projects": 57,
+                "description": "Oost Begroot Oud Oost",
+                "filename": "netherlands_amsterdam_212_.pb"
+            },
+            {
+                "num_voters": 219,
+                "num_projects": 24,
+                "description": "Buurtbudget Bloemenbuurt",
+                "filename": "netherlands_amsterdam_179_.pb"
+            },
+            {
+                "num_voters": 426,
+                "num_projects": 52,
+                "description": "Buurtbudget Kleine Wereld",
+                "filename": "netherlands_amsterdam_166_.pb"
+            }
+        ]
+    },
+    "Canada": {
+        "Stanford Dataset": [
+            {
+                "num_voters": 378,
+                "num_projects": 16,
+                "description": "PB Dieppe 2018",
+                "filename": "canada_stanford-dataset_pb-dieppe-2018_vote-approvals.pb"
+            }
+        ]
+    }
+}

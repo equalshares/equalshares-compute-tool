@@ -29,7 +29,7 @@
         <p>
             Code is available on <a href="https://github.com/equalshares/equalshares-compute-tool">GitHub <img src="img/github-mark.svg" height="14"></a>.
             More information about the Method of Equal Shares is available on <a href="https://equalshares.net">equalshares.net</a>.
-            This page was first published October 2023 and last updated December 2024 (version v1.1.0).
+            This page was first published October 2023 and last updated December 2024 (version v1.2.0).
         </p>
 
         <!-- TODO: handle files with floats. Allow custom tie breaking, or alphabetic. Do something with categories. Give explanations of completion and comparison. -->
@@ -43,8 +43,14 @@
                     style="position: relative; top: 3px; margin-top: -16px; margin-right: 2px;">
                     <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
                 </svg>
-                Select .pb file</button> <span id="drop-suggestion">or drag and drop it here</span> or <a href="#" id="loadExampleButton">load Zielony Milion</a>.
+                Select .pb file</button> <span id="drop-suggestion">or drag and drop it here</span> or 
+                <button id="pabulibLoadButton" type="button">
+                    load instance from pabulib
+                </button>.
         </p>
+
+        <div id="pabulibList" class="pabulib-list">
+        </div>
 
         <div id="fileInfo">
             <img src="img/file-earmark-check.svg" width="50">

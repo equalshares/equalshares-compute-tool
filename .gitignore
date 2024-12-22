@@ -1,2 +1,5 @@
 js/unused/*
 npm-package
+
+pb/*.pb
+!pb/poland_wieliczka_2023_green-budget.pb
