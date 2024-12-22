@@ -88,6 +88,53 @@ button#uploadBtn:focus {
     margin: 5px 0;
 }
 
+.pabulib-list {
+    display: none;
+    padding: 10px;
+    padding-bottom: 0;
+    background-color: hsl(0, 0%, 96%);
+    border: 1px solid hsl(0, 0%, 90%);
+}
+
+.pabulib-list details {
+    margin-bottom: 0;
+}
+
+.pabulib-list details > ul {
+    margin-top: 0;
+}
+
+.pabulib-list ul {
+    padding-left: 20px;
+}
+
+.pabulib-file {
+    cursor: pointer;
+}
+
+.pabulib-description {
+    color: rgb(31, 31, 160);
+}
+
+.pabulib-description:hover {
+    text-decoration: underline;
+}
+
+.pabulib-filename {
+    color: #555;
+    font-size: 90%;
+    margin-left: 4px;
+}
+
+.pabulib-show-more {
+    color: rgb(74, 74, 133);
+    text-decoration: none;
+}
+
+.pabulib-show-more:hover {
+    text-decoration: underline;
+}
+
 #unusedTieBreakingMethods {
     display: flex;
     gap: 10px;
