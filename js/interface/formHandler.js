@@ -182,7 +182,7 @@ const headerText = {
 
 function showCurrentChoices() {
     // for showing current choices in <summary> elements
-    for (let details of document.querySelectorAll('details')) {
+    for (let details of document.querySelectorAll('details[data-field]')) {
         let field;
         try {
             field = details.dataset.field;
