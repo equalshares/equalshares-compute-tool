@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/sortable-theme-light.css" />
-    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/main.js?v=121"></script>
     <link rel="icon" href="img/favicon.svg" data-rh="true">
     <link rel="preload" href="js/methodOfEqualSharesWorker.js" as="worker" />
     <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.0-beta.1/mapbox-gl.js'></script>
@@ -49,6 +49,11 @@
                 </button>.
         </p>
 
+        <div id="pabulibLoading" style="display: none;">
+            <img src="img/spinner.svg" id="pabulibSpinner" style="position: relative; top: 5px; margin-top: -16px; margin-right: 5px;">
+            <span id="pabulibLoadingText">Loading file...</span>
+        </div>
+        
         <div id="pabulibList" class="pabulib-list">
         </div>
 

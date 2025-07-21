@@ -338,9 +338,31 @@ export function initializeForm(fileHandler, moduleParamsChanged, moduleEqualShar
                             fileLink.addEventListener('click', (e) => {
                                 e.preventDefault();
                                 pabulibArea.style.display = 'none';
+                                
+                                // Show loading spinner and hide file info and results
+                                const pabulibLoading = document.getElementById("pabulibLoading");
+                                const pabulibLoadingText = document.getElementById("pabulibLoadingText");
+                                const fileInfo = document.getElementById("fileInfo");
+                                const resultsHeader = document.getElementById("results-header");
+                                const resultsSection = document.getElementById("results-section");
+                                pabulibLoading.style.display = "block";
+                                pabulibLoadingText.textContent = `Loading ${file.filename}...`;
+                                fileInfo.style.display = "none";
+                                resultsHeader.style.display = "none";
+                                resultsSection.innerHTML = "";
+                                
                                 fetch(`./pb/${file.filename}`)
                                     .then(response => response.text())
-                                    .then(text => fileHandler(file.filename, text));
+                                    .then(text => {
+                                        // Hide loading spinner
+                                        pabulibLoading.style.display = "none";
+                                        fileHandler(file.filename, text);
+                                    })
+                                    .catch(error => {
+                                        // Hide loading spinner on error
+                                        pabulibLoading.style.display = "none";
+                                        console.error('Error loading file:', error);
+                                    });
                             });
                             fileItem.appendChild(fileLink);
                             return fileItem;
