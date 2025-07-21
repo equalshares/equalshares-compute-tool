@@ -12,10 +12,46 @@ export function parsePabulibFromString(filetext) {
 
     let lineNumber = 0;
 
+    // CSV parsing helper function to handle escaping
+    function parseCSVLine(line) {
+        const result = [];
+        let current = '';
+        let inQuotes = false;
+        let i = 0;
+        
+        while (i < line.length) {
+            const char = line[i];
+            
+            if (char === '"') {
+                if (inQuotes && i + 1 < line.length && line[i + 1] === '"') {
+                    // Escaped quote
+                    current += '"';
+                    i += 2;
+                } else {
+                    // Toggle quote mode
+                    inQuotes = !inQuotes;
+                    i++;
+                }
+            } else if (char === ';' && !inQuotes) {
+                // Field separator
+                result.push(current);
+                current = '';
+                i++;
+            } else {
+                current += char;
+                i++;
+            }
+        }
+        
+        // Add the last field
+        result.push(current);
+        return result;
+    }
+
     filetext.split('\n').forEach(line => {
         lineNumber++;
         if (line.trim().length === 0) return;
-        const row = line.split(';');
+        const row = parseCSVLine(line);
 
         if (['meta', 'projects', 'votes'].includes(row[0].trim().toLowerCase())) {
             section = row[0].trim().toLowerCase();
@@ -41,8 +77,8 @@ export function parsePabulibFromString(filetext) {
             const costIdx = header.indexOf("cost");
             const nameIdx = header.indexOf("name");
 
-            if (projectIdIdx === -1 || costIdx === -1 || nameIdx === -1) {
-                throw new Error(`Line ${lineNumber}: Missing required column(s) in projects section: ${projectIdIdx === -1 ? 'project_id ' : ''}${costIdx === -1 ? 'cost ' : ''}${nameIdx === -1 ? 'name' : ''}.`);
+            if (projectIdIdx === -1 || costIdx === -1) {
+                throw new Error(`Line ${lineNumber}: Missing required column(s) in projects section: ${projectIdIdx === -1 ? 'project_id ' : ''}${costIdx === -1 ? 'cost' : ''}.`);
             }
 
             const projectId = row[projectIdIdx].trim();
@@ -50,7 +86,7 @@ export function parsePabulibFromString(filetext) {
                 throw new Error(`Line ${lineNumber}: Duplicate project ID '${projectId}' found.`);
             }
 
-            if (!row[projectIdIdx] || isNaN(row[costIdx]) || !row[nameIdx]) {
+            if (!row[projectIdIdx] || isNaN(row[costIdx])) {
                 throw new Error(`Line ${lineNumber}: Invalid or missing values in projects section.`);
             }
 
@@ -66,12 +102,21 @@ export function parsePabulibFromString(filetext) {
                 projects[projectId][header[it].trim()] = row[it].trim();
             }
 
+            // If no name column or empty name, use project_id as name
+            if (nameIdx === -1 || !projects[projectId]['name'] || projects[projectId]['name'].trim() === '') {
+                projects[projectId]['name'] = projectId;
+            }
+
         } else if (section === "votes") {
             const voterIdIdx = header.indexOf("voter_id");
             const voteIdx = header.indexOf("vote");
 
             if (voterIdIdx === -1 || voteIdx === -1) {
                 throw new Error(`Line ${lineNumber}: Missing required column(s) in votes section: ${voterIdIdx === -1 ? 'voter_id ' : ''}${voteIdx === -1 ? 'vote' : ''}.`);
+            }
+
+            if (row.length !== header.length) {
+                throw new Error(`Line ${lineNumber}: Invalid number of columns in votes section.`);
             }
 
             const voterId = row[voterIdIdx].trim();
