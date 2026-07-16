@@ -1,0 +1,27 @@
+js/libraries/echarts.min.js is a custom build of Apache ECharts v5.6.0
+(see echarts.license.txt for the license).
+
+It was produced with esbuild from the following entry file:
+
+    import * as echarts from 'echarts/core';
+    import { BarChart, LineChart, PieChart, ScatterChart } from 'echarts/charts';
+    import {
+        GridComponent, LegendComponent, TooltipComponent, ToolboxComponent,
+        MarkLineComponent, TitleComponent
+    } from 'echarts/components';
+    import { LabelLayout, UniversalTransition } from 'echarts/features';
+    import { SVGRenderer, CanvasRenderer } from 'echarts/renderers';
+
+    echarts.use([
+        BarChart, LineChart, PieChart, ScatterChart,
+        GridComponent, LegendComponent, TooltipComponent, ToolboxComponent,
+        MarkLineComponent, TitleComponent,
+        LabelLayout, UniversalTransition,
+        SVGRenderer, CanvasRenderer
+    ]);
+
+    export * from 'echarts/core';
+
+using the command:
+
+    npx esbuild entry.js --bundle --minify --format=iife --global-name=echarts --outfile=echarts.min.js

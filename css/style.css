@@ -259,3 +259,163 @@ tr.winner-row {
         margin-bottom: 10px;
     }
 }
+/* result sections and outcome visualizations */
+
+details.result-section {
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 0 15px 5px 15px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 88%);
+    border-radius: 5px;
+}
+
+details.result-section > summary {
+    font-size: 115%;
+    font-weight: 500;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+details.result-section[open] > summary {
+    margin-bottom: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 92%);
+}
+
+.chart-note {
+    color: #444;
+    font-size: 90%;
+    margin-top: 5px;
+}
+
+/* summary stat tiles */
+
+.stat-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    margin: 10px 0 15px 0;
+}
+
+.stat-tile {
+    background-color: hsl(205, 46%, 96%);
+    border: 1px solid hsl(205, 46%, 88%);
+    border-radius: 5px;
+    padding: 12px 15px;
+}
+
+.stat-tile .stat-value {
+    font-size: 175%;
+    font-weight: 700;
+    color: rgb(54, 54, 123);
+}
+
+.stat-tile .stat-label {
+    font-size: 85%;
+    color: #444;
+    margin-top: 3px;
+}
+
+/* rounds table */
+
+.rounds-table-wrapper {
+    max-height: 450px;
+    overflow: auto;
+    border: 1px solid #ddd;
+}
+
+.rounds-table {
+    border-collapse: collapse;
+    font-size: 85%;
+    width: 100%;
+}
+
+.rounds-table th, .rounds-table td {
+    border: 1px solid #ddd;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+.rounds-table th {
+    position: sticky;
+    top: 0;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.rounds-table td.right {
+    text-align: right;
+}
+
+.rounds-table tr.completion-row {
+    background-color: hsl(144, 42%, 93%);
+}
+
+/* project explorer */
+
+.project-explorer-select {
+    max-width: 100%;
+    font-size: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.project-explanation {
+    background-color: hsl(205, 46%, 97%);
+    border: 1px solid hsl(205, 46%, 88%);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+/* greedy comparison */
+
+.diff-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.diff-column {
+    flex: 1;
+    min-width: 280px;
+}
+
+.diff-column h4 {
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+}
+
+.diff-column ul {
+    padding-left: 20px;
+    font-size: 90%;
+}
+
+.diff-column li {
+    margin-bottom: 6px;
+}
+
+.diff-details {
+    color: #666;
+    font-size: 90%;
+}
+
+.comparison-table {
+    border-collapse: collapse;
+    font-size: 90%;
+    margin: 10px 0;
+}
+
+.comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 4px 10px;
+    text-align: left;
+}
+
+.comparison-table th {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.comparison-table td:nth-child(2), .comparison-table td:nth-child(3) {
+    text-align: right;
+}

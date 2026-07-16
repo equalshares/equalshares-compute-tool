@@ -37,7 +37,7 @@ const workerOnMessage = async function (e) {
         clearResults();
         const winners = e.data.winners;
         const notes = e.data.notes;
-        displayResults(instance, { winners, notes });
+        displayResults(instance, { winners, notes }, equalSharesParams);
     } else if (e.data.type == "progress") {
         progressText.textContent = e.data.text;
     }
@@ -50,7 +50,7 @@ const workerOnError = function (e) {
 }
 
 function setUpWorker() {
-    equalSharesWorker = new Worker("./js/methodOfEqualSharesWorker.js?v=1");
+    equalSharesWorker = new Worker("./js/methodOfEqualSharesWorker.js?v=2");
     equalSharesWorker.onmessage = workerOnMessage;
     equalSharesWorker.onerror = workerOnError;
     awaitingResponse = false;

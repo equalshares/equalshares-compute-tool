@@ -12,6 +12,24 @@ function fractionSum(xs, zero) {
     return xs.reduce((a, b) => a.add(b), zero);
 }
 
+function summarizeRemainingBudgets(budgetValues, endowment) {
+    // bin the remaining voter budgets into numBins equal-width bins between 0 and the endowment,
+    // for display as a histogram
+    const numBins = 20;
+    const counts = new Array(numBins).fill(0);
+    let totalRemaining = 0;
+    let numExhausted = 0;
+    for (const b of budgetValues) {
+        totalRemaining += b;
+        if (b <= endowment * 1e-9) {
+            numExhausted++;
+        }
+        const bin = Math.max(0, Math.min(numBins - 1, Math.floor((b / endowment) * numBins)));
+        counts[bin]++;
+    }
+    return { numBins, counts, totalRemaining, numExhausted, endowment, numVoters: budgetValues.length };
+}
+
 function breakTies(N, C, cost, approvers, params, choices) {
     let remaining = [...choices];
     for (let method of params.tieBreaking) {
@@ -54,6 +72,7 @@ function equalSharesFixedBudgetFractions(N, C, cost, approvers, B, params, repor
     report.moneyBehindCandidate = {};
     report.effectiveVoteCount = {};
     report.endowment = B / N.length;
+    report.rounds = [];
     let remaining = new Map(); // remaining candidate -> previous effective vote count
     for (let c of C) {
         if (cost[c] > 0 && approvers[c].length > 0) {
@@ -125,14 +144,30 @@ function equalSharesFixedBudgetFractions(N, C, cost, approvers, B, params, repor
             postMessage({ type: "progress", text: `${Math.floor( 100 * sum(winners.map(c => cost[c])) / B )}%` });
         }
         let bestMaxPayment = new Fraction(cost[best]).div(bestEffVoteCount);
+        let numPaidFull = 0;
         for (let i of approvers[best]) {
             if (budget[i].compare(bestMaxPayment) > 0) {
                 budget[i] = budget[i].sub(bestMaxPayment);
+                numPaidFull++;
             } else {
                 budget[i] = new Fraction(0);
             }
         }
+        if (reportDetails) {
+            const moneyBehindHistory = report.moneyBehindCandidate[best];
+            report.rounds.push({
+                project: best,
+                effVoteCount: bestEffVoteCount.valueOf(),
+                maxPayment: bestMaxPayment.valueOf(),
+                numPaidFull: numPaidFull,
+                numPaidPartial: approvers[best].length - numPaidFull,
+                moneyBehind: moneyBehindHistory[moneyBehindHistory.length - 1],
+            });
+        }
         remaining.delete(best);
+    }
+    if (reportDetails) {
+        report.finalVoterBudgets = summarizeRemainingBudgets(N.map(i => budget[i].valueOf()), report.endowment);
     }
     return { winners, report };
 }
@@ -148,6 +183,7 @@ function equalSharesFixedBudgetFloats(N, C, cost, approvers, B, params, reportDe
     report.moneyBehindCandidate = {};
     report.effectiveVoteCount = {};
     report.endowment = B / N.length;
+    report.rounds = [];
     let remaining = new Map(); // remaining candidate -> previous effective vote count
     for (let c of C) {
         if (cost[c] > 0 && approvers[c].length > 0) {
@@ -222,14 +258,30 @@ function equalSharesFixedBudgetFloats(N, C, cost, approvers, B, params, reportDe
             postMessage({ type: "progress", text: `${Math.floor( 100 * sum(winners.map(c => cost[c])) / B )}%` });
         }
         let bestMaxPayment = cost[best] / bestEffVoteCount;
+        let numPaidFull = 0;
         for (let i of approvers[best]) {
             if (budget[i] > bestMaxPayment) {
                 budget[i] -= bestMaxPayment;
+                numPaidFull++;
             } else {
                 budget[i] = 0;
             }
         }
+        if (reportDetails) {
+            const moneyBehindHistory = report.moneyBehindCandidate[best];
+            report.rounds.push({
+                project: best,
+                effVoteCount: bestEffVoteCount,
+                maxPayment: bestMaxPayment,
+                numPaidFull: numPaidFull,
+                numPaidPartial: approvers[best].length - numPaidFull,
+                moneyBehind: moneyBehindHistory[moneyBehindHistory.length - 1],
+            });
+        }
         remaining.delete(best);
+    }
+    if (reportDetails) {
+        report.finalVoterBudgets = summarizeRemainingBudgets(N.map(i => budget[i]), endowment);
     }
     return { winners, report };
 }
@@ -390,6 +442,8 @@ function gatherOutcomeStatistics(N, C, cost, approvers, B, winners) {
     for (let i of N) {
         stats.utilityDistribution[voterUtility[i]] += 1;
     }
+    stats.numVoters = N.length;
+    stats.numVotersCovered = N.length - stats.utilityDistribution[0]; // voters who approve at least one winner
     return stats;
 }
 
@@ -422,6 +476,11 @@ function equalShares(instance, params) {
         endowment: result.report.endowment,
         moneyBehindCandidate: result.report.moneyBehindCandidate,
         effectiveVoteCount: result.report.effectiveVoteCount,
+        rounds: result.report.rounds,
+        finalVoterBudgets: result.report.finalVoterBudgets,
+        budget: B,
+        numVoters: N.length,
+        everythingAffordable: everythingAffordable,
     };
 
     // utilitarian completion if needed
@@ -434,10 +493,12 @@ function equalShares(instance, params) {
     // comparison step
     const greedyOutput = utilitarianCompletion(N, C, cost, approvers, B, []);
     const greedy = greedyOutput.winners;
+    notes.greedyWinners = greedy;
     if (params.comparison !== "none") {
         const { stickToMES, prefersMES, prefersGreedy } = comparisonStep(N, C, cost, approvers, B, greedy, winners, params);
         if (!stickToMES) {
             winners = greedy;
+            notes.comparisonReplaced = true;
             notes.comparison = `The committee chosen by the greedy algorithm is preferred by ${prefersGreedy} voters, while the committee chosen by the method of equal shares is preferred by ${prefersMES} voters.`;
         }
     }

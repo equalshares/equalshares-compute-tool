@@ -1,98 +1,14 @@
 import { generateTableBarCharts } from "./tableBarChart.js";
+import {
+    buildSummaryTiles, buildBudgetBar, buildCostVotesScatter, buildCategoryChart, hasCategories,
+    buildPaymentChart, buildLeftoverHistogram, buildUtilityChart, buildGreedyComparison
+} from "./outcomeCharts.js";
+import { buildExplanationSection } from "./explanation.js";
 
 let showLosers = true;
 
 function showNumber(value) {
     return parseFloat(value).toLocaleString();
-}
-
-////////////////////////////////////////////
-/////////  chart generation  ///////////////
-////////////////////////////////////////////
-
-const myLabelLayout = function (params) {
-    if (params.labelRect.width > params.rect.width - 5) {
-        return { x: params.labelRect.x + params.rect.width, y: params.labelRect.y };
-    }
-}
-
-const hideLabelLayout = function (params) {
-    if (params.labelRect.width > params.rect.width - 2) {
-        return { fontSize: 0 };
-    }
-    if (params.labelRect.width > params.rect.width - 8) {
-        return { dx: (params.rect.width - params.labelRect.width - 8) / 2 };
-    }
-}
-
-function buildUtilityChart(containerId, instance, notes) {
-    const utilityDistribution = notes.stats.utilityDistribution;
-    const numVoters = Object.values(utilityDistribution).reduce((a, b) => a + b, 0);
-    const cutoff = numVoters * 0.95;
-    let maxUtil;
-    let votersSoFar = 0;
-    let utilityDescriptors = [];
-    let utilities = [];
-    for (let util in utilityDistribution) {
-        votersSoFar += utilityDistribution[util];
-        utilityDescriptors.push(util);
-        utilities.push(utilityDistribution[util]);
-        if (votersSoFar == numVoters) {
-            maxUtil = util;
-            break;
-        } else if (votersSoFar > cutoff) {
-            maxUtil = util;
-            const remaining = numVoters - votersSoFar;
-            utilityDescriptors.push(`${parseInt(util) + 1}+`);
-            utilities.push(remaining);
-            break;
-        }
-    }
-
-    const container = document.getElementById(containerId);
-    container.style.width = "100%";
-    container.style.height = `${utilities.length * 30}px`;
-    const chart = echarts.init(container, null, { renderer: 'svg' });
-    const option = {
-        yAxis: {
-            data: utilityDescriptors,
-            inverse: true,
-            axisLine: { show: false },
-            axisTick: { show: false },
-            axisLabel: { align: 'left', color: '#000' },
-            offset: 40
-        },
-        xAxis: { show: false },
-        grid: {
-            left: 50,
-            top: 0,
-            bottom: 0,
-        },
-        textStyle: { fontFamily: 'Roboto', fontSize: 14 },
-        animation: false,
-        toolbox: { 
-            show: true, 
-            feature : { 
-                saveAsImage: {}, 
-                // dataView: {} 
-            } },
-        series: [
-            {
-                name: 'sales',
-                type: 'bar',
-                data: utilities,
-                barCategoryGap: '20%',
-                label: {
-                    show: true,
-                    color: '#fff',
-                    position: 'insideLeft',
-                },
-                labelLayout: myLabelLayout
-            }
-        ],
-        color: 'rgb(75, 159, 201)'
-    };
-    chart.setOption(option);
 }
 
 ////////////////////////////////////////////
@@ -141,7 +57,7 @@ function showMap(mapContainerId, instance, winners) {
         const project = instance.projects[winner];
         const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
             `<b>${project.name}</b> Cost:&nbsp;${showNumber(project.cost)}`
-        ); 
+        );
         if (project.latitude && project.longitude) {
             const marker = new mapboxgl.Marker()
                 .setLngLat([project.longitude, project.latitude])
@@ -159,6 +75,17 @@ function buildProjectTable(table, instance, winners, notes, includeLosers=true) 
     let tr, th, td;
     table.classList.add("sortable-theme-light");
     table.dataset.sortable = "true";
+
+    // if the detailed rounds are known (and correspond to the displayed winners),
+    // show the round in which each project was selected
+    let roundOf = null;
+    let completionSet = new Set();
+    if (notes.rounds && !notes.comparisonReplaced) {
+        roundOf = {};
+        notes.rounds.forEach((r, idx) => { roundOf[r.project] = idx + 1; });
+        completionSet = new Set(notes.addedByUtlitarianCompletion || []);
+    }
+
     // table header
     const thead = document.createElement("thead");
     tr = document.createElement("tr");
@@ -166,6 +93,13 @@ function buildProjectTable(table, instance, winners, notes, includeLosers=true) 
     th.textContent = "ID";
     th.style.minWidth = "70px";
     tr.appendChild(th);
+    if (roundOf) {
+        th = document.createElement("th");
+        th.textContent = "Round";
+        th.style.minWidth = "60px";
+        th.title = "The round in which the project was selected by the Method of Equal Shares ('extra' = added by utilitarian completion)";
+        tr.appendChild(th);
+    }
     th = document.createElement("th");
     th.textContent = "Project name";
     th.style.minWidth = "130px";
@@ -202,6 +136,21 @@ function buildProjectTable(table, instance, winners, notes, includeLosers=true) 
         td = document.createElement("td");
         td.textContent = c;
         tr.appendChild(td);
+        if (roundOf) {
+            td = document.createElement("td");
+            td.classList.add("right");
+            if (roundOf[c] !== undefined) {
+                td.textContent = roundOf[c];
+                td.dataset.value = roundOf[c];
+            } else if (completionSet.has(c)) {
+                td.textContent = "extra";
+                td.dataset.value = 100000;
+            } else {
+                td.textContent = "–";
+                td.dataset.value = 200000;
+            }
+            tr.appendChild(td);
+        }
         td = document.createElement("td");
         td.textContent = project.name;
         tr.appendChild(td);
@@ -214,9 +163,7 @@ function buildProjectTable(table, instance, winners, notes, includeLosers=true) 
         td.classList.add("right");
         // show last value of effectiveVoteCount
         let effVotes = notes.effectiveVoteCount[c][notes.effectiveVoteCount[c].length - 1];
-        // console.log(notes.effectiveVoteCount[c]);
         if (isNaN(effVotes)) { effVotes = 0; }
-        // td.textContent = effVotes.toFixed(1).toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
         td.textContent = showNumber(effVotes.toFixed(0));
         td.dataset.value = effVotes + 0.0001 * instance.approvers[c].length;
         tr.appendChild(td);
@@ -231,18 +178,46 @@ function buildProjectTable(table, instance, winners, notes, includeLosers=true) 
 
     Sortable.initTable(table);
 
-    generateTableBarCharts({ tableElement: table, columnIndex: 2, barWidth: 150, barColor: 'rgb(75, 159, 201)'});
-    generateTableBarCharts({ tableElement: table, columnIndex: 3, barWidth: 150, barColor: 'rgb(75, 159, 201)'});
-    generateTableBarCharts({ tableElement: table, columnIndex: 4, barWidth: 150, barColor: 'rgb(75, 159, 201)'});
+    const offset = roundOf ? 1 : 0;
+    generateTableBarCharts({ tableElement: table, columnIndex: 2 + offset, barWidth: 150, barColor: 'rgb(75, 159, 201)'});
+    generateTableBarCharts({ tableElement: table, columnIndex: 3 + offset, barWidth: 150, barColor: 'rgb(75, 159, 201)'});
+    generateTableBarCharts({ tableElement: table, columnIndex: 4 + offset, barWidth: 150, barColor: 'rgb(75, 159, 201)'});
 }
 
-export function displayResults(instance, { winners, notes }) {
+////////////////////////////////////////////
+///////////  section helper  ///////////////
+////////////////////////////////////////////
+
+function addSection(parent, title, open = true) {
+    const details = document.createElement("details");
+    details.className = "result-section";
+    details.open = open;
+    const summary = document.createElement("summary");
+    summary.textContent = title;
+    details.appendChild(summary);
+    // charts inside an initially-closed <details> are rendered with zero width;
+    // trigger a resize when the section is opened
+    details.addEventListener("toggle", () => {
+        if (details.open) {
+            window.dispatchEvent(new Event("resize"));
+        }
+    });
+    parent.appendChild(details);
+    return details;
+}
+
+export function displayResults(instance, { winners, notes }, params) {
     const resultsInfo = document.getElementById("results-section");
     resultsInfo.innerHTML = "";
     let h3, p, li;
+
+    ////// statistics //////
     h3 = document.createElement("h3");
     h3.innerText = "Statistics";
     resultsInfo.appendChild(h3);
+
+    buildSummaryTiles(resultsInfo, instance, winners, notes);
+
     const statsList = document.createElement("ul");
     li = document.createElement("li");
     li.innerHTML = `Computation time: ${showNumber(notes.time)} s`;
@@ -259,9 +234,22 @@ export function displayResults(instance, { winners, notes }) {
     li = document.createElement("li");
     li.innerHTML = `Voter endowment: ${notes.endowment.toFixed(2)}`;
     statsList.appendChild(li);
+    if (notes.comparisonReplaced && notes.comparison) {
+        li = document.createElement("li");
+        li.innerHTML = `<b>Comparison step:</b> the greedy outcome is displayed instead of the Equal Shares outcome. ${notes.comparison}`;
+        statsList.appendChild(li);
+    }
     resultsInfo.appendChild(statsList);
 
+    ////// budget allocation bar //////
+    let section = addSection(resultsInfo, "Budget allocation");
+    p = document.createElement("p");
+    p.className = "chart-note";
+    p.textContent = "How the budget is divided among the winning projects (each colored segment is one project; hover for details).";
+    section.appendChild(p);
+    buildBudgetBar(section, instance, winners, notes);
 
+    ////// winning projects table //////
     h3 = document.createElement("h3");
     h3.innerText = "Winning projects";
     resultsInfo.appendChild(h3);
@@ -274,7 +262,7 @@ export function displayResults(instance, { winners, notes }) {
     checkbox.checked = showLosers;
     checkbox.addEventListener("change", function () {
         showLosers = checkbox.checked;
-        displayResults(instance, { winners, notes });
+        displayResults(instance, { winners, notes }, params);
     });
     checkbox.style.marginRight = '5px';
     label.appendChild(checkbox);
@@ -307,22 +295,46 @@ export function displayResults(instance, { winners, notes }) {
     });
     resultsInfo.appendChild(csvButton);
 
-    h3 = document.createElement("h3");
-    h3.innerText = "Utility chart";
-    resultsInfo.appendChild(h3);
+    ////// utility chart //////
+    section = addSection(resultsInfo, "Utility chart");
     p = document.createElement("p");
+    p.className = "chart-note";
     p.innerHTML = "How many voters approved this number of winning projects?";
-    resultsInfo.appendChild(p);
-    const utilityChart = document.createElement("div");
-    utilityChart.id = "utility-chart";
-    resultsInfo.appendChild(utilityChart);
-    buildUtilityChart("utility-chart", instance, notes);
+    section.appendChild(p);
+    buildUtilityChart(section, instance, notes);
 
-    // h3 = document.createElement("h3");
-    // h3.innerText = "Map";
-    // resultsInfo.appendChild(h3);
-    // const map = document.createElement("div");
-    // map.id = "map";
-    // resultsInfo.appendChild(map);
-    // showMap("map", instance, winners);
+    ////// votes vs cost scatter //////
+    section = addSection(resultsInfo, "Votes and costs of funded projects");
+    p = document.createElement("p");
+    p.className = "chart-note";
+    p.textContent = "Each dot is one proposed project. The Method of Equal Shares tends to fund projects that combine many votes with a modest cost.";
+    section.appendChild(p);
+    buildCostVotesScatter(section, instance, winners, notes);
+
+    ////// category chart (only if the file has categories) //////
+    if (hasCategories(instance, winners)) {
+        section = addSection(resultsInfo, "Spending by category");
+        buildCategoryChart(section, instance, winners);
+    }
+
+    ////// payments and leftover budgets (only when rounds match the outcome) //////
+    if (notes.rounds && !notes.comparisonReplaced) {
+        section = addSection(resultsInfo, "What did supporters pay?", false);
+        buildPaymentChart(section, instance, notes);
+
+        if (notes.finalVoterBudgets) {
+            section = addSection(resultsInfo, "Leftover budget shares of voters", false);
+            buildLeftoverHistogram(section, instance, notes);
+        }
+    }
+
+    ////// explanation of the computation //////
+    section = addSection(resultsInfo, "How was the outcome computed?");
+    buildExplanationSection(section, instance, winners, notes, params);
+
+    ////// comparison with greedy //////
+    if (notes.greedyWinners && !notes.comparisonReplaced) {
+        section = addSection(resultsInfo, "Comparison with the greedy method", false);
+        buildGreedyComparison(section, instance, winners, notes);
+    }
 }
